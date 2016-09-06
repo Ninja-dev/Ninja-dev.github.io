@@ -1,0 +1,345 @@
+@media screen and (max-width: 1200px) and (min-width: 993px){
+	.container{
+		width: 970px;
+		padding: 0 15px;
+	}
+
+	.awesome{
+		padding-bottom: 60px;
+	}
+
+	.blog_left{
+		margin-right: 19px;
+	}
+
+	.second_think{
+		width: 37.5%;
+	}
+
+	.name{
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px){
+	.container{
+		width: 750px;
+		padding: 0 15px;
+	}
+
+	.think{
+		width: 54%;
+	}
+
+	.second_think{
+		width: 52.5%;
+	}	
+
+	.ways{
+		width: 45.5%;
+	    margin-bottom: 30px;
+	}
+
+	.our_works_right, .blog_right{
+		width: 64.5%;
+	}
+
+	.our_works_right div{
+	    width: 45.5%;
+		margin: 0 10px 10px 0;
+		transition: 0.25s;
+	}
+
+	.our_works_right div:hover{
+	transform: scale(1.1);
+	}
+
+	.double_button span{
+		transition: 0.1s;
+	}
+
+	.our_works_left, .blog_left{
+		width: 32%;
+	}
+
+	.blog-img, .blog-img-last{
+		width: 47%;
+	}
+
+	.last_title {
+	    margin: 22px;	
+	}
+
+	.services {
+	    margin-top: 65px;
+	    margin-bottom: 65px;
+	}
+
+	.features, .awesome, .blog{
+	    padding: 60px 0;
+	}
+
+	.customers{
+		padding-top: 60px;
+	}
+
+	.first, .second, .third{
+		width: 95%;
+	}
+
+}	
+@media screen and (max-width: 768px) and (min-width: 480px){
+	.container{
+	width: 100%;
+	padding: 0 15px;
+	}
+
+	.header_link{
+		font-size: 12px;
+		line-height: 21px;
+
+	}
+
+	.ways{
+		width: 94.5%;
+	    margin-bottom: 30px;
+	}
+
+	.our_works_right, .blog_right{
+		width: 64.5%;
+	    float: none;
+	    padding-top: 83px;
+	}
+
+	.our_works_right div{
+	    width: 45.5%;
+		margin: 0 10px 10px 0;
+		transition: 0.25s;
+	}
+
+	.our_works_right div:hover{
+	transform: scale(1.1);
+	}
+
+	.double_button span{
+		transition: 0.1s;
+	}
+
+	.our_works_left, .blog_left{
+		width: 94%;
+		text-align: center;
+		margin-bottom: 50px;
+		margin-right: 0;
+
+	}
+
+	.blog-img, .blog-img-last{
+		width: 47%;
+	}
+
+	.last_title {
+	    margin: 22px;	
+	}
+
+	.services {
+	    margin-top: 65px;
+	    margin-bottom: 65px;
+	}
+
+	.features, .awesome, .blog{
+	    padding: 60px 0;
+	}
+
+	.customers{
+		padding-top: 60px;
+	}
+
+	.first, .third{
+		display: inline-block;
+    	text-align: center;
+	}
+
+	 .second{
+	 	display: flex;
+	 	flex-direction:column-reverse;
+	 }
+
+	.customers{
+		background: url(../img/bacground.png) top center;
+	}
+	.img{
+		display: block;
+		margin-top: -15px;
+		margin-bottom: 10px;
+	}
+
+	.name_dev, .name_dev_2{
+		text-align: center;
+		margin-right: 0;
+	}
+
+	.name_dev_2{
+		top: 0;
+		margin-left: 0;
+	}
+
+	.think, .second_think{
+		width: 88%;
+		display: block;
+		margin-right: 0;
+		background: url(../img/white3.png);
+	}
+	
+	.name {
+		display: inline-block;
+		margin-left: 1px;
+		margin-top: 25px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.blog-img,  .blog-img-last{
+		width: 150%;
+	}	
+	
+	.slicknav_menu{
+		display: block;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	.main{
+		position: relative;
+		left: -15px;
+	}
+}
+
+@media screen and (max-width: 479px) and (min-width: 320px){
+	.container{
+	width: 100%;
+	padding: 0;
+	}
+
+	.header_link{
+		font-size: 12px;
+		line-height: 21px;
+
+	}
+
+	.ways{
+		width: 94.5%;
+	    margin-bottom: 30px;
+	}
+
+	.our_works_right, .blog_right{
+		width: 64.5%;
+	    float: none;
+	    padding-top: 83px;
+	}
+
+	.our_works_right div{
+	    width: 45.5%;
+		margin: 0 10px 10px 0;
+		transition: 0.25s;
+	}
+
+	.our_works_right div:hover{
+	transform: scale(1.1);
+	}
+
+	.double_button span{
+		transition: 0.1s;
+	}
+
+	.our_works_left, .blog_left{
+		width: 94%;
+		text-align: center;
+		margin-bottom: 50px;
+		margin-right: 0;
+
+	}
+
+	.blog-img, .blog-img-last{
+		width: 47%;
+	}
+
+	.last_title {
+	    margin: 22px;	
+	}
+
+	.services {
+	    margin-top: 65px;
+	    margin-bottom: 65px;
+	}
+
+	.features, .awesome, .blog{
+	    padding: 60px 0;
+	}
+
+	.customers{
+		padding-top: 60px;
+	}
+
+	.first, .third{
+		display: inline-block;
+    	text-align: center;
+	}
+
+	 .second{
+	 	display: flex;
+	 	flex-direction:column-reverse;
+	 }
+
+	.customers{
+		background: url(../img/bacground.png) top center;
+	}
+	.img{
+		display: block;
+		margin-top: -15px;
+		margin-bottom: 10px;
+	}
+
+	.name_dev, .name_dev_2{
+		text-align: center;
+		margin-right: 0;
+	}
+
+	.name_dev_2{
+		top: 0;
+		margin-left: 0;
+	}
+
+	.think, .second_think{
+		width: 75%;
+		display: block;
+		margin-right: 0;
+		background: url(../img/white3.png);
+	}
+	
+	.name {
+		display: inline-block;
+		margin-left: 1px;
+		margin-top: 25px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.blog-img,  .blog-img-last{
+		width: 150%;
+	}	
+	
+	.slicknav_menu{
+		display: block;
+	}
+
+	.menu{
+		display: none;
+	}	
+
+	.double_button span{
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+}

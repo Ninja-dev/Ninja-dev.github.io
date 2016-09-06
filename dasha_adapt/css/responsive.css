@@ -1,0 +1,708 @@
+@media screen and (max-width:1200px) and (min-width:992px){
+    .container{
+        width: 920px;
+        padding: 0 15px;
+    }
+    
+    .header-logo-top{
+        font-size: 2.188em;
+}
+
+    .header-logo-bottom{
+        font-size: 1.250em;
+}
+    .header-reg,
+    .header-cur{
+        padding-top: 87px;
+    }
+        
+    .header-reg-link,
+    .header-cur-link,
+    .header-cur,
+    .header-backet-p{
+        font-size: 0.813em;
+    }
+
+    .header-basket{
+        padding-bottom: 36px;
+    }
+    
+    .header-nav{
+        margin-top: 5px;
+    }
+    
+    .header-nav-link{
+        font-size: 1em;
+    }
+    
+    .baner-right-title{
+        font-size: 2.01em;
+    }
+    
+    .baner-right-button{
+        margin-left: 60%;
+    }
+    
+    .content-baner-right::after{
+    margin-top: 30px;
+}
+    .baner-right-news-text{
+    font-size: 0.813em;
+    margin-top: 20px;
+}
+    
+    .baner-right-news-icon {
+        margin-top: 24px;
+    }
+
+    .baner-right-news-input{
+        margin-top: 5px;
+    }
+    
+    .new-prod-title,
+    .new-prod-text,
+    .footer-link,
+    .footer-text,
+    .footer-text-3{
+        font-size: 0.813em;
+    }
+    
+    .new-products-1{
+        width: 23%;
+    }
+    
+    .new-products-2,
+    .new-products-3,
+    .new-products-4{
+    width: 23%;
+    margin-left: 0.5%;
+}
+
+    .foter-title{
+        font-size: 1.125em;
+    }
+    
+    .contacts{
+        width: 16%;
+    }
+    
+    .text-space {
+    margin-top: 4px;
+}
+
+    .foter-title2{
+        font-size: 1.4em;
+    }
+
+    .footer-text-2{
+        font-size: 1em;
+    }
+    
+    .snetworks{
+        width: 8%;
+    }
+
+}
+
+/*-------------------------------------------------------------992---------------------------------*/
+
+@media screen and (max-width: 992px) and (min-width: 769px){
+    .container{
+        width: 750px;
+        padding: 0 15px;
+    }
+    
+    .header-logo{
+        width: 22.3%;
+    }
+    
+    .header-logo-top{
+        font-size: 2.188em;
+}
+
+    .header-logo-bottom{
+        font-size: 1.250em;
+}
+    
+    .header-reg {
+        width: 23.8%;
+        margin-left: 3%;}
+    
+    .header-cur {
+        width: 12.1%;
+        margin-left: 3%;}
+    
+    .header-reg,
+    .header-cur{
+        padding-top: 85px;
+    }
+        
+    .header-basket {
+        width: 24.9%;
+        margin-left: 2.7%;}
+    
+    .header-reg-link,
+    .header-cur-link,
+    .header-cur,
+    .header-backet-p{
+        font-size: 0.813em;
+    }
+
+    .header-basket{
+        padding-bottom: 20px;
+    }
+    
+    .header-nav{
+        margin-top: 5px;
+        width: 71%;
+    }
+    
+    .header-nav-link{
+        font-size: 1em;
+        margin-right: 2%;
+    }
+    
+    .header-search{
+        margin-left: 1%;
+    }
+    
+    .baner-left-text {
+        width: 36.5%;
+    }
+    
+     .baner-right-title{
+        font-size: 1.5em;
+         padding-top: 12px;
+    }
+    
+    .baner-right-text {
+        font-size: 0.8em;}
+    
+    .baner-right-button{
+        margin-left: 52%;
+        margin-top: 141px;
+    }
+    
+    .content-baner-right::after{
+        margin-top: 30px;
+}
+    .baner-right-news-text{
+        font-size: 0.813em;
+        margin-top: 20px;
+        width: 78.1%;    
+}
+    
+    .baner-right-news-icon {
+        margin-top: 24px;
+    }
+
+    .baner-right-news-input{
+        margin-top: 5px;
+    }
+    
+    .new-products-1, 
+    .new-products-2, 
+    .new-products-3, 
+    .new-products-4 {
+        width: 44%;  
+}
+    
+    .new-products-2, 
+    .new-products-4{
+         margin-left: 2%;
+    }
+    
+    .new-products-3{
+        margin-left: 5.5%;
+    }
+    
+    .new-prod-button-1, 
+    .new-prod-button-2{
+        margin-bottom: 12px;
+    }
+
+    .slash{
+         margin: 40px 1% 0 1%;
+    }
+    
+    .foter-title{
+        font-size: 1.125em;
+    }
+    
+    .footer-information {
+        width: 17.72%;
+    }
+    
+    .account{
+    width: 20.72%;
+}
+    
+    .contacts{
+        width: 21%;
+    }
+    
+    .delivery {
+    width: 23.72%;
+}
+    
+    .text-space {
+    margin-top: 4px;
+}
+
+    .foter-title2{
+        font-size: 1.4em;
+    }
+
+    .footer-text-2{
+        font-size: 1em;
+    }
+    
+    .snetworks{
+        width: 10%;
+    }
+        
+    
+}
+
+/*---------------------------------------------768--------------------------------*/
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+    
+    .container{
+        width: 100%;
+    }
+    
+    .header-logo{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+           
+    }
+    
+    .header-logo-top{
+        font-size: 2.188em;
+}
+
+    .header-logo-bottom{
+        font-size: 1.250em;
+}
+    
+    .header-reg {
+        width: 45%;
+        margin-left: 5.5%;
+        padding-top: 28px;
+    }
+    
+    
+    .header-cur {
+        width: 19.1%;
+        margin-left: 4%;
+        padding-top: 28px;
+    }
+        
+    .header-basket-text{
+        overflow:hidden;
+        display: none;
+    }
+    
+    .header-basket {
+        width: 7.9%;
+        margin-left: 6.7%;
+        padding-top: 14px;
+        padding-bottom: 20px;
+    }
+    
+    .header-backet-img{
+        width: 100%;
+    }
+    
+    .header-reg-link,
+    .header-cur-link,
+    .header-cur,
+    .header-backet-p{
+        font-size: 0.813em;
+    }
+
+    
+    .header-nav{
+        display: none;
+        margin-top: 5px;
+        width: 71%;
+    }
+    
+    .slicknav_menu {
+        background: none;
+        display: block;
+    }
+    
+    .slicknav_btn {
+        float: left;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 27%;
+        color: rgb( 84, 84, 84);
+        margin-top: -3px;
+    }
+        
+    .header-nav-link{
+        font-size: 1em;
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .header-search{
+        width: 35%;
+        margin-left: 5%;
+    }
+    
+    .content-baner-left{
+        width: 101%;
+        margin-right: 0;
+        margin-bottom: 10px;
+}
+    
+    
+    .baner-left-text {
+        width: 36.5%;
+    }
+    
+    .baner-right {
+        width: 101%;
+}
+    
+   
+    .baner-right-title{
+        margin-left: 5.4%;
+       /* font-size: 1.5em;
+         padding-top: 12px;*/
+    }
+    
+    .baner-right-text {
+         margin-left: 5.4%;
+        /*font-size: 0.8em;*/
+    }
+    
+    .baner-right-button{
+        margin-left: 86%;
+        margin-top: 124px;
+    }
+    
+
+    .baner-right-news-text{
+        float: left;
+        font-size: 0.813em;
+        margin-top: 75px;
+        width: 78.1%;    
+}
+    
+    .baner-right-news-icon {
+        height: 138px;
+        margin-top: 24px;
+    }
+
+    .baner-right-news-input{
+        margin-top: 5px;
+    }
+    
+    .new-products-1, 
+    .new-products-2, 
+    .new-products-3, 
+    .new-products-4 {
+        width: 44%;  
+}
+    
+    .new-products-2, 
+    .new-products-4{
+         margin-left: 2%;
+    }
+    
+    .new-products-3{
+        margin-left: 5.5%;
+    }
+    
+    .new-prod-button-1, 
+    .new-prod-button-2{
+        margin-bottom: 12px;
+    }
+
+    .new-prod-span{
+        margin-left: 2%;
+    }
+    
+    .new-prod-text{
+        line-height: 1.2;
+        font-size: 0.86em;
+    }
+    
+    .slash{
+         margin: 40px 1.7% 0 1%;
+    }
+    
+    .slash-display{
+        display: none;
+    }
+    
+    .foter-title{
+        font-size: 1.125em;
+    }
+    
+    .footer-information,
+    .account,
+    .contacts,
+    .delivery
+    {
+        width: 44%;
+    }
+    
+    .contacts{
+        margin-left: 5.5%;
+    }
+
+    
+    .footer-list {
+    margin-bottom: 8px;
+}
+    
+    .text-space {
+    margin-top: 35px;
+}
+
+    .foter-title2{
+        font-size: 1.4em;
+    }
+
+    .footer-text-2{
+        font-size: 1em;
+    }
+    
+    .snetworks{
+        width: 15%;
+    }
+    
+    .credits {
+        margin-bottom: 33px;
+    }
+    
+}
+
+
+/*-------------------------------------------------------------480------------------------*/
+
+@media screen and (max-width: 479px) and (min-width: 320px){
+     .container{
+        width: 100%;
+    }
+    
+    .header-logo{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+           
+    }
+    
+    .header-logo-top{
+        font-size: 2.188em;
+}
+
+    .header-logo-bottom{
+        font-size: 1.250em;
+}
+    
+    .header-reg {
+        width: 61%;
+        margin-left: 5.5%;
+        padding-top: 28px;
+    }
+    
+    
+    .header-cur {
+        display: none;
+        width: 19.1%;
+        margin-left: 4%;
+        padding-top: 28px;
+    }
+        
+    .header-basket-text{
+        overflow:hidden;
+        display: none;
+    }
+    
+    .header-basket {
+        width: 10.9%;
+        margin-left: 6.7%;
+        padding-top: 14px;
+        padding-bottom: 20px;
+    }
+    
+    .header-backet-img{
+        width: 100%;
+    }
+    
+    .header-reg-link,
+    .header-cur-link,
+    .header-cur,
+    .header-backet-p{
+        font-size: 0.813em;
+    }
+
+    
+    .header-nav{
+        display: none;
+        margin-top: 5px;
+        width: 71%;
+    }
+    
+    .slicknav_menu {
+        background: none;
+        display: block;
+    }
+    
+    .slicknav_btn {
+        float: left;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 23%;
+        color: rgb( 84, 84, 84);
+        margin-top: -3px;
+    }
+        
+    .header-nav-link{
+        font-size: 1em;
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .header-search{
+        width: 35%;
+        margin-left: 5%;
+    }
+    
+    .content-baner-left{
+        width: 101%;
+        margin-right: 0;
+        margin-bottom: 10px;
+}
+    
+    
+    .baner-left-text {
+        width: 36.5%;
+    }
+    
+    .baner-right {
+        width: 101%;
+}
+    
+   
+    .baner-right-title{
+        margin-left: 5.4%;
+       /* font-size: 1.5em;
+         padding-top: 12px;*/
+    }
+    
+    .baner-right-text {
+         margin-left: 5.4%;
+        /*font-size: 0.8em;*/
+    }
+    
+    .baner-right-button{
+        margin-left: 63%;
+        margin-top: 124px;
+    }
+    
+
+    .baner-right-news-text{
+        float: left;
+        font-size: 0.813em;
+        margin-top: 43px;
+        width: 78.1%;    
+}
+    
+    .baner-right-news-icon {
+        height: 70px;
+        margin-top: 24px;
+    }
+
+    .baner-right-news-input{
+        margin-top: 5px;
+    }
+    
+    .new-products-1, 
+    .new-products-2, 
+    .new-products-3, 
+    .new-products-4 {
+        width: 98%;
+        margin-left: 1%;
+}
+    
+    
+    .new-prod-button-1, 
+    .new-prod-button-2{
+        margin-bottom: 12px;
+    }
+
+    .new-prod-span{
+        margin-left: 30%;
+    }
+    
+    .new-prod-text{
+        line-height: 1.2;
+        font-size: 0.86em;
+    }
+    
+    .slash{
+         margin: 40px 1.7% 0 1%;
+    }
+    
+    .slash-display{
+        display: none;
+    }
+    
+    .foter-title{
+        font-size: 1.125em;
+    }
+    
+    .footer-information,
+    .account,
+    .contacts,
+    .delivery
+    {
+        width: 44%;
+    }
+    
+    .contacts{
+        margin-left: 5.5%;
+    }
+
+    
+    .footer-list {
+    margin-bottom: 8px;
+}
+    
+    .text-space {
+    margin-top: 35px;
+}
+
+    .foter-title2{
+        font-size: 1.4em;
+    }
+
+    .footer-text-2{
+        font-size: 1em;
+    }
+    
+    .snetworks{
+        width: 12%;
+        margin-top: 42px;
+    }
+    
+    .fb,
+    .tw{
+        width: 65.5%;
+    }
+    
+    .credits {
+        margin-bottom: 33px;
+    }
+    
+    
+}

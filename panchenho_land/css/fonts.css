@@ -1,0 +1,13 @@
+@font-face {
+    font-family: HelveticaNeueLTStd; /* Имя шрифта */
+    src: url("../fonts/Helv.ttf"); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: PFDinTextCompPro-Light; /* Имя шрифта */
+    src: url("../fonts/PFDinTextCompPro-Light_0.ttf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: PFDinTextCompPro; /* Имя шрифта */
+    src: url("../fonts/pfdintextcomppro-regular.ttf"); /* Путь к файлу со шрифтом */
+}

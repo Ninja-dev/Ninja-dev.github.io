@@ -1,0 +1,492 @@
+/*font-family: 'Dosis', sans-serif;*/
+body{
+	background: url(../img/Rectangle-3.png) center top;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;	
+}
+
+/*------HEADER-------*/
+
+.header-logo{
+	color: rgb(91, 91, 94);
+	font-family: 'Dosis', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 120px;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	top: 18px;
+
+}
+
+.navbar {
+	    position: relative;
+	    min-height: 50px;
+	    margin-bottom: 20px;
+	    border: 1px solid transparent;
+	    display: flex;
+	}
+
+.header-logo span{
+	display: inline-block;
+	position: relative;
+	left: -35px;
+}
+
+.header-nav{
+	height: 55px;
+	background-color: rgba(0, 0, 0, 0.05);
+	text-align: center;
+}
+
+.header-nav-menu{
+	position: relative;
+	left: 10px;
+}
+
+.header-nav-menu li{
+	display: inline-block;
+	margin-right: 41px;
+	margin-top: 18px;
+}
+
+.navbar-nav li a{
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px;
+	font-weight: 800;
+	color: rgb(78, 78, 78);
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.active{
+	color: rgb(87, 164, 164)!important;
+}
+
+.header-nav-menu li a:hover{
+	color: rgb(87, 164, 164);
+}
+
+
+/*------BANNER-------*/
+
+
+.banner{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.banner-img{
+	width: 100%;
+}
+
+.banner-article{
+	margin-top: 70px;
+}
+
+.banner-article h1{
+	color: rgb(78, 78, 78);
+	font-family: 'Dosis', sans-serif;
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.banner-article span{
+	color: rgb(92, 92, 92);
+	font-family: Dosis;
+	font-size: 28px;
+	font-weight: 300;
+	margin:0 28px;
+	line-height: 1.5;
+}
+.think{
+	color: rgb(87, 164, 164);
+	position: relative;
+	top: -2px;
+}
+
+
+/*----shots-----*/
+
+.shots{
+	margin-top: 75px;
+	width: 100%
+}
+
+.left-title{
+	display: inline-block;
+	text-align: left;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: rgb(78, 78, 78);
+}
+
+.think{
+	color: rgb(87, 164, 164);
+	position: relative;
+	top: -2px;
+}
+
+.shots-nav{
+	display: inline-block;
+	float: right;
+}
+
+.shots-nav li{
+	display: inline-block;
+}
+
+.shots-nav li a{
+	font-family: 'Dosis', sans-serif;
+	color: rgb(78, 78, 78);
+	font-size: 13px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.shots-nav li a:hover{
+	color: rgb(87, 164, 164);	
+}
+
+.slash{
+	display: inline-block;
+	margin:0 5px;
+}
+
+.photos{
+	margin-top: 27px;
+} 
+
+.photos img{
+	float: left;
+	cursor: pointer;
+}
+
+
+.photos-left{
+	padding:0;
+	padding-right: 6px;
+}
+
+.photos-right{
+	padding:0;
+	padding-left: 8px;
+}
+
+.photos-center{
+	padding: 0 4.1px 0 4px;
+}
+
+.photos-center-first{
+	padding-bottom: 5px;
+}
+
+.photos-center-second{
+	padding-top: 5px;
+}
+
+.photos-left-2{
+    padding: 0;
+    float: left;
+}
+
+.photos-left-2-second{
+	padding: 0 7.5px 0 0;
+}
+
+.photos-left-2-first{
+    padding: 10px 7.5px 10px 0;	
+}
+
+
+
+.photos-center-2 {
+	margin: 0;
+	padding: 0;
+}
+
+.photos-center-2 :first-child{
+	max-width: 292px;
+	padding: 10px 4.5px 10px 2.5px ;
+}
+
+.photos-center-2 :nth-child(2){
+	max-width: 292px;
+	padding: 10px 2px 10px 4px;
+}
+
+.photos-center-2 :nth-child(3){
+
+	padding: 0 2.5px 0 2.5px;
+}
+
+.photos-right-2{
+	padding:0;
+}
+
+.photos-right-2-first{
+	padding: 0;
+    padding-left: 7.5px;
+    padding-top: 10px;
+}
+
+.photos-right-2-second{
+    padding-left: 7.5px;
+    padding-top: 10px;
+}
+
+
+/*------make------*/
+
+.make{
+	margin: 70px 0;
+	text-align: center;
+}
+
+.make-title{
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: rgb(78, 78, 78);
+	margin-bottom: 30px;
+}
+
+.button{
+	display: inline-block;
+	width: 158px;
+	height: 47px;
+	background-color: rgb(87, 164, 164);
+	text-align: center;
+	line-height: 47px;
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 10px;
+	margin-left: 10px;
+	transition-property: background;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+}
+
+.button:hover{
+	background-color: rgb(160, 104, 139);
+	cursor: pointer;
+}
+
+/*-----doing-----*/
+
+.doing{
+	padding-bottom: 70px;
+	background-color: rgba(0, 0, 0, 0.03);
+}
+
+.left-title-2{
+	margin:70px 0 0 0;
+}
+
+.fa{
+	color: rgb(87, 164, 164);
+	display: block;
+	float: left;
+	font-size: 40px;
+}
+
+.plate img{
+	display: block;
+	float: left;
+}
+
+.plate{
+	margin-top: 35px;
+}
+
+.wedding{
+	margin-left: 70px;
+	display: block;
+}
+
+h2{
+
+	color: rgb(78, 78, 78);
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.wedding-content{
+	color: rgb(92, 92, 92);
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	margin-top: 15px;
+}
+
+
+/*-----slider------*/
+
+
+.fluid-container{
+	background: url(../img/Color-Fill.png) no-repeat top center;
+	height: 329px; 
+}
+
+.slider-title{
+	color: rgb(234, 234, 234);
+	letter-spacing: 1px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 75px 0 40px;
+	text-align: center;
+}
+
+.slider-content{
+	color: rgb(221, 221, 221);
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+	padding:0 170px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+.slider{
+	text-align: center;
+}
+
+.slick-dots{
+	top: 120px;
+}
+
+.author{
+	color: rgb(87, 164, 164);
+	font-family: 'Dosis', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 60px;
+	text-transform: uppercase;
+}
+
+
+/*------posts------*/
+
+
+.comment{
+	margin-top: 15px;
+	color: rgb(124, 124, 124);
+	font-family: 'Dosis', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.anean{
+	display: block;
+	margin-left: 180px;
+	margin-top: -22px;
+}
+
+/*------insta----*/
+
+
+.insta{
+	margin-top: 70px;
+	padding-bottom: 70px;
+	background-color: rgba(0, 0, 0, 0.03);
+}
+
+.right-insta{
+	float: right;
+	margin: 70px 15px 0 0;
+	display: inline-block;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(78, 78, 78);
+}
+
+.insta-photo{
+	margin-top: 30px;
+	padding: 0;
+}
+
+.fa-instagram{
+	font-size: 16px;
+	 color: rgb(78, 78, 78);
+	 position: relative;
+	 top: 1px;
+	 margin-left: -4px;
+}
+
+.fa-long-arrow-right{
+	font-size: 16px;
+	color: rgb(78, 78, 78);
+	position: relative;
+	left: 208px;
+}
+ .one{
+ 	margin-left: -15px;
+	margin-right: 5px;
+ }
+
+ .third, .two{
+ 	margin-right: 5px;
+ }
+
+
+
+/*-------footer---*/
+
+footer{
+	padding-bottom: 40px;
+	background-color: rgb(30, 31, 32);
+}
+
+.footer-content{
+	color: rgb(185, 185, 185);
+	font-family: 'Dosis';
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	padding: 0 300px;
+	line-height: 1.5;
+	margin-top: 40px;
+}
+
+.links{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.links img{
+
+}

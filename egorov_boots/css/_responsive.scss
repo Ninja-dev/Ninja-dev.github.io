@@ -1,0 +1,352 @@
+@media screen and (min-width: 1201px) {
+  .slicknav_menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+  .container {
+    width: 970px;
+  }
+  .row {
+    margin-right: -3px;
+  }
+  .slider-item {
+    left: 8%;
+  }
+  .info-message {
+    padding-right: 0;
+    padding-bottom: 12px;
+  }
+  .info-clients {
+    padding-left: calc(58.3% - 489px);
+  }
+  .contacts-connect-img {
+    padding-right: 10px;
+  }
+  footer .header-logo-link {
+  line-height: 102px;
+  }
+  .slicknav_menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .container {
+    width: 750px;
+  }
+  .row {
+    margin-right: -1px;
+  }
+  .slider-item {
+    left: 3%;
+  }
+  .info-message {
+    padding-right: 0;
+    padding-bottom: 12px;
+  }
+  .download-bottom {
+    padding-left: 0;
+  }
+  .contacts-connect-img {
+    padding-right: 10px;
+  }
+  footer .header-logo-link {
+    line-height: 102px;
+  }
+  .header-logo {
+    text-align: center;
+  }
+  .header-nav {
+    padding-top: 0;
+    padding-left: 38px;
+  }
+  .header-nav-list {
+    float: none;
+  }
+  .slider img {
+    width: 100%;
+  }
+  .mid-3, .mid-4 {
+   padding-top: 30px;
+  }
+  .info-clients {
+  padding-left: 63px;
+  padding-right: 0;
+  }
+  .contacts-browse {
+    padding-bottom: 25px;
+  }
+  .contacts-connect h2 {
+    text-align: center;
+  }
+  .contacts-connect-list {
+    text-align: right;
+  }
+  .copy {
+    padding-bottom: 26px;
+  }
+  .slicknav_menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .container {
+    width: auto;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: -2px;
+  }
+  .slider-item {
+    left: 3%;
+    top: 9%;
+  }
+  .info-message {
+    padding-right: 0;
+    padding-bottom: 12px;
+  }
+  .download-bottom {
+    padding-left: 0;
+  }
+  .contacts-connect-img {
+    padding-right: 10px;
+  }
+  footer .header-logo-link {
+    line-height: 102px;
+  }
+  .header-logo {
+    text-align: center;
+  }
+  .header-nav {
+    padding-top: 0;
+    padding-left: 8px;
+    padding-right: 7px;
+  }
+  .header-nav-list {
+    float: none;
+  }
+  .header-nav-link {
+    padding: 0 5px;
+  }
+  .header-nav-item {
+    margin: 12px 0 0 0;
+  }
+  .slider img {
+    width: 100%;
+  }
+  .mid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mid-1, .mid-2, .mid-3, .mid-4 {
+    margin-bottom: 15px;
+  }
+  .mid p {
+    padding: 12px 0;
+  }
+  .download-text {
+    padding: 18px;
+  }
+  .info-clients {
+    padding-left: 8px;
+    padding-right: 0;
+  }
+  .contacts-about {
+    padding-right: 15px;
+    padding-bottom: 20px;
+  }
+  .contacts-browse {
+    padding-left: 15px;
+  }
+  .contacts-menu {
+    padding-left: 15px;
+  }
+  .contacts-about h2 {
+    text-align: center;
+  }
+  .contacts-connect {
+    padding: 15px;
+    text-align: center;
+  }
+  footer .header-logo {
+    padding-left: 0;
+  }
+  .copy {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  footer .header-logo-link {
+    line-height: 83px;
+  }
+  .slicknav_menu {
+    display: block;
+  }
+  .header-nav-list {
+    display: none;
+  }
+  .slicknav_btn {
+    font-weight: bold;
+    color: $main-color-0;
+    margin: 0 15px 10px 15px;
+    padding: 10px;
+    background: #29abc7;
+    display: block;
+    &:hover {
+      color: $main-color-0;
+    }
+  }
+  .slicknav_icon:before {
+    content: '\f0c9';
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    position: relative;
+    float: right;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .container {
+    width: auto;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: -2px;
+  }
+  .slider-item {
+    left: 3%;
+    top: 9%;
+  }
+  .info-message {
+    padding-right: 0;
+    padding-bottom: 12px;
+  }
+  .info-clients {
+    padding-left: 5px;
+    padding-right: 0;
+  }
+  .download-bottom {
+    padding-left: 0;
+  }
+  .contacts-connect-img {
+    padding-right: 10px;
+  }
+  footer .header-logo-link {
+    line-height: 102px;
+  }
+  .header-logo {
+    text-align: center;
+  }
+  .header-logo-link {
+    line-height: 62px;
+  }
+  .header-nav-list {
+    float: none;
+  }
+  .header-nav-link {
+    display: block;
+  }
+  .header-nav-item {
+    width: 100%;
+    margin: 0;
+    float: none;
+    &:hover {
+      .header-nav-sub {
+        display: block;
+        position: static;
+        z-index: 1;
+      }
+    }
+  }
+  .header-nav-sub {
+    display: block;
+  }
+  .slider-item {
+    font-size: 31px;
+    width: 230px;
+  }
+  .slider img {
+    width: 100%;
+  }
+  .mid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mid-1, .mid-2, .mid-3, .mid-4 {
+    margin-bottom: 15px;
+  }
+  .mid p {
+    padding: 12px 0;
+  }
+  .download-text {
+    padding: 22px 15px 0 15px;
+  }
+  .download-bottom {
+    padding: 15px;
+  }
+  .contacts-about {
+    padding-right: 15px;
+    padding-bottom: 20px;
+  }
+  .contacts-browse {
+    padding-left: 86px;
+    width: auto;
+  }
+  .contacts-menu {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .contacts-about h2 {
+    text-align: center;
+  }
+  .contacts-us {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 15px;
+  }
+  .contacts-connect {
+    padding: 15px;
+    text-align: center;
+  }
+  h3 {
+    padding-top: 15px;
+  }
+  footer .header-logo {
+    padding-left: 85px;
+    width: auto;
+  }
+  .copy {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: auto;
+  }
+  footer .header-logo-link {
+    line-height: 55px;
+  }
+  .slicknav_menu {
+    display: block;
+  }
+  .header-nav-list {
+    display: none;
+  }
+  .slicknav_btn {
+    font-weight: bold;
+    color: $main-color-0;
+    margin: 0 15px 10px 15px;
+    padding: 10px;
+    background: #29abc7;
+    display: block;
+    &:hover {
+      color: $main-color-0;
+    }
+  }
+  .slicknav_icon:before {
+    content: '\f0c9';
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    position: relative;
+    float: right;
+  }
+  .works-slider {
+    margin-bottom: 23px;
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: SortsMillGoudy; /* Имя шрифта */
+    src: url("../fonts/GoudyStM-Italic.otf"); /* Путь к файлу со шрифтом */
+}
+
+
+@font-face {
+    font-family: Archer; /* Имя шрифта */
+    src: url("../fonts/Archer-Semibold-Pro.otf"); /* Путь к файлу со шрифтом */
+}

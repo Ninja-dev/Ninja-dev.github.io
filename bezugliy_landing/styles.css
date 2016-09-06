@@ -1,0 +1,684 @@
+
+/*Fonts families*/
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Droid Serif', serif;*/
+.container {
+    width: 2000px;
+    height: 5503px;
+    margin: 0 auto;
+    background: url("images/main_bg.png") no-repeat top center;
+    position: relative;
+}
+.header {
+    height: 573px;
+}
+
+.header-logo {
+    width: 964px;
+    height: 471px;
+    background: url("images/header_border.png") no-repeat ;
+    position: absolute;
+    left: 519px;
+    top: 173px;
+}
+
+.header-logo-top {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 85px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.header-logo-top:after {
+    content: '';
+    width: 91px;
+    height: 3px;
+    background-color: white;
+    top: 40px;
+    right: 438px;
+    position: absolute;
+    display: inline-block;
+}
+
+.header-logo-travel {
+    color: white;
+    font-family: 'Droid Serif', serif;;
+    font-size: 185px;
+    font-weight: 400;
+    line-height: 116px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.header-logo-bottom {
+    color: #ac752f;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/*----------------------------------------Content part-----------------------------------*/
+
+
+.content-about-me {
+    width: 1444px;
+    height: 700px;
+    background: url("images/about_me_bg.png") no-repeat;
+    margin-top: 357px;
+    padding-top: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+.content-about-me-text {
+    margin-left: 140px;
+    float: left;
+}
+
+.content-about-me-text-top {
+    width: 330px;
+    height: 95px;
+    color: #ad7835;
+    font-family: 'Droid Serif', serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 81px;
+    position: relative;
+}
+
+.content-about-me-text-top:after {
+    content: '';
+    width: 91px;
+    height: 3px;
+    background-color: #ad7835;
+    right: 438px;
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 75px;
+}
+
+.content-about-me-text-main {
+    width: 470px;
+    color: white;
+    font-family: "MyriadPro-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.content-about-me-text-main p {
+    margin-top: 30px;
+}
+
+.content-about-me-link {
+    width: 180px;
+    height: 57px;
+    border: 1px solid #6b4922;
+    text-align: center;
+    margin-top: 52px;
+}
+
+.content-about-me-link a {
+    color: #ad7835;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 58px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+}
+
+.content-about-me-link a:hover {
+    color: white;
+    background: #ad7835;
+}
+
+.content-photo {
+    width: 730px;
+    height: 800px;
+    background: url("images/about_me_man.png");
+    float: right;
+    margin-top: -177px;
+    margin-right: 50px;
+}
+
+/*-----------------------------------Latest articles styles-------------------------------*/
+
+.lastest-articles-container {
+    width: 1444px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 839px;
+}
+
+.lastest-articles-top {
+    color: #ad7835;
+    font-family: 'Droid Serif', serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 81px;
+    text-align: center;
+    position: relative;
+}
+
+.lastest-articles-top:after {
+    content: '';
+    width: 91px;
+    height: 3px;
+    background-color: #ad7835;
+    position: absolute;
+    display: inline-block;
+    left: 512px;
+    top: 75px;
+}
+
+
+.lastest-articles-content {
+    float: left;
+    width: 398px;
+    height: 507px;
+    margin-left: -2px;
+    margin-top: 72px;
+}
+
+.lastest-articles-content:nth-child(3) {
+    float: left;
+    width: 398px;
+    height: 507px;
+    margin-left: 95px;
+    margin-top: 135px;
+}
+
+.lastest-articles-content:last-child {
+    float: right;
+    width: 398px;
+    height: 507px;
+    margin-right: 82px;
+    margin-top: 72px;
+}
+
+
+
+.lastest-articles-content-image-1 {
+    background: url("images/article_image_1.png") no-repeat;
+    width: 480px;
+    height: 378px;
+}
+
+.lastest-articles-content-image-2 {
+    background: url("images/article_image_2.png") no-repeat;
+    width: 480px;
+    height: 378px;
+}
+
+.lastest-articles-content-image-3 {
+    background: url("images/article_image_3.png") no-repeat;
+    width: 480px;
+    height: 378px;
+}
+.lastest-articles-content-header {
+    border-bottom: 1px solid #ad7835;
+    width: 395px;
+    color: #ad7835;
+    font-family: 'Droid Serif', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 19px;
+}
+
+.lastest-articles-content-article {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 25px;
+}
+
+.lastest-articles-content-text {
+    margin-left: 48px;
+    width: 420px;
+}
+
+.lastest-articles-content-text a {
+    color: #ad7835;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 35px;
+    width: 118px;
+}
+
+.lastest-articles-content-text a:hover {
+    color: white;
+}
+
+
+    /*------------------------------Gallery styles------------------------------------*/
+
+.gallery {
+    width: 1444px;
+    height: 1455px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 246px;
+
+}
+
+.gallery-top {
+    color: #ad7835;
+    font-family: 'Droid Serif', serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 81px;
+    padding-left: 80px;
+    padding-top: 36px;
+    position: relative;
+}
+
+.gallery-top:after {
+    content: '';
+    width: 91px;
+    height: 3px;
+    background-color: #ad7835;
+    position: absolute;
+    display: inline-block;
+    left: 80px;
+    top: 111px;
+}
+.gallery-photos {
+    display: table;
+    width: 1326px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-photos-left {
+    height: 1110px;
+    width: 440px;
+    float: left;
+}
+
+.gallery-photos-left-top {
+    width: 510px;
+    height: 426px;
+    background: url("images/tb_left_top.png") no-repeat top right;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.gallery-photos-left-top:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+.gallery-photos-left-bottom {
+    width: 510px;
+    height: 630px;
+    background: url("images/tb_left_bottom.png") no-repeat top right;
+    margin-top: -56px;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.gallery-photos-left-bottom:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+.gallery-photos-right {
+    height: 1110px;
+    width: 857px;
+    float: right;
+
+}
+
+.gallery-photos-right-top {
+    width: 800px;
+    height: 300px;
+}
+
+.gallery-photos-right-top-1 {
+    height: 421px;
+    width: 442px;
+    background: url("images/tb_top_left.png") no-repeat bottom left;
+    float: left;
+    margin-left: -71px;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.gallery-photos-right-top-1:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+.gallery-photos-right-top-2 {
+    float: right;
+    height: 318px;
+    width: 458px;
+    background: url("images/tb_top_right.png") no-repeat bottom right;
+    margin-right: -36px;
+    margin-top: 103px;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.gallery-photos-right-top-2:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+.gallery-photos-right-middle {
+    width: 924px;
+    height: 420px;
+    background: url("images/tb_right_middle.png") no-repeat top right;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.gallery-photos-right-middle:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+.gallery-photos-right-bottom {
+    width: 800px;
+    height: 300px;
+}
+
+.gallery-photos-right-bottom-1 {
+    height: 445px;
+    width: 442px;
+    background: url("images/tb_bottom_left.png") no-repeat top left;
+    float: left;
+    margin-left: -72px;
+    margin-top: -48px;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.gallery-photos-right-bottom-1:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+.gallery-photos-right-bottom-2 {
+    height: 276px;
+    width: 442px;
+    background: url("images/tb_bottom_right.png") no-repeat top left;
+    float: left;
+    margin-left: -48px;
+    margin-top: -46px;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.gallery-photos-right-bottom-2:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+.gallery-link {
+}
+
+.gallery-link a {
+    display: block;
+    width: 180px;
+    height: 57px;
+    border: 1px solid #6b4922;
+    text-decoration: none;
+    color: #ad7835;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.gallery-link a:hover{
+    color: white;
+    background: #ad7835;
+}
+
+
+/*------------------------------------Contacts styles------------------------------*/
+
+.contact-container {
+    background: url("images/Contact_bg.png") no-repeat;
+    width: 1444px;
+    height: 880px;
+    margin-top: 77px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contact-photo {
+    background: url("images/contact_photo.png") no-repeat;
+    width: 730px;
+    height: 800px;
+    float: left;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.contact-forms {
+    width: 478px;
+    height: 500px;
+    float: right;
+    margin-top: 99px;
+    margin-right: 125px;
+}
+
+.contact-forms-top {
+    color: #ad7835;
+    font-family: 'Droid Serif', serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 81px;
+    position: relative;
+}
+
+.contact-forms-top:after {
+    content: '';
+    width: 91px;
+    height: 3px;
+    background-color: #ad7835;
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 75px;
+}
+
+.contact-forms-mid {
+    width: 476px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.contact-forms-mid input {
+    width: 214px;
+    background: #373737;
+    border: none;
+    border-bottom: 1px solid #737373;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    outline: none;
+    padding-bottom: 10px;
+}
+
+
+.floated {
+    float: right;
+}
+
+.contact-forms-message {
+    width: 476px;
+    height: 150px;
+    margin-top: 30px;
+
+}
+
+.contact-forms-message textarea {
+    width: 470px;
+    height: 75px;
+    margin-top: 30px;
+    background: #373737;
+    border: none;
+    border-bottom: 1px solid #737373;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    outline: none;
+    resize: none;
+}
+
+.contact-forms a {
+    display: block;
+    width: 180px;
+    height: 57px;
+    border: 1px solid #6b4922;
+    text-decoration: none;
+    color: #ad7835;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.contact-forms a:hover {
+    color: white;
+    background: #ad7835;
+}
+
+.footer {
+    width: 406px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-facebook {
+    background: url("images/facebook.png") no-repeat;
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: left;
+}
+
+.footer-facebook:hover {
+    background-color: white;
+}
+
+.footer-twitter {
+    background: url("images/twitter.png") no-repeat;
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: left;
+    margin-left: 30px;
+}
+
+.footer-twitter:hover {
+    background-color: white;
+}
+
+.footer-insta {
+    background: url("images/instagram.png") no-repeat;
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: left;
+    margin-left: 30px;
+
+}
+
+.footer-insta:hover {
+    background-color: white;
+}
+
+.footer-pinterest {
+    background: url("images/pinterest.png") no-repeat;
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: right;
+}
+
+.footer-pinterest:hover {
+    background-color: white;
+}

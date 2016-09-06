@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="SlickNav/slicknav.css">
+    <script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+    <script src="https://use.fontawesome.com/55367a5b31.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="SlickNav/jquery.slicknav.js"></script>
+    <script src="scroll.js"></script>
+    <scripy scr="main.js"></scripy>
+    <title>Adaptive page</title>
+</head>
+<body>
+<header class="header">
+    <div class="container" id="top">
+        <div class="header-logo">
+            <span>Architecture</span>
+        </div>
+        <div class="header-links">
+            <ul id="menu">
+                <li>
+                    <a href="#">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#proj">
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#proj">
+                        What we do
+                    </a>
+                </li>
+                <li>
+                    <a href="#proj">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#proj">
+                        Contact us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('#menu').slicknav({
+                        prependTo: '.header-links'
+                    });
+                });
+            </script>
+        </div>
+        <div class="header-content">
+            <div>
+                <p class="header-content-top">Architecture Template</p>
+                <p class="header-content-bottom">Built with Bootstrap</p>
+                <div>
+                    <a href="#" class="header-content-link">Learn more</a>
+                </div>
+            </div>
+            <div>
+                <p class="header-content-top">Architecture Template</p>
+                <p class="header-content-bottom">Built with Bootstrap</p>
+                <div>
+                    <a href="#" class="header-content-link">Learn more</a>
+                </div>
+            </div>
+            <div>
+                <p class="header-content-top">Architecture Template</p>
+                <p class="header-content-bottom">Built with Bootstrap</p>
+                <div>
+                    <a href="#" class="header-content-link">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.header-content').slick({
+                    setting-name: setting-value
+            });
+            });
+        </script>
+        <script type="text/javascript">
+            $('.header-content').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+        </script>
+    </div>
+</header>
+<div class="container">
+    <div class="content-heading-top">
+        <p class="content-heading-top-services">Our Services</p>
+        <p class="content-heading-top-symbol">&</p>
+        <p class="content-heading-top-text">Built is the template designed specially for architectures and builders, So start building you web site with built.</p>
+    </div>
+    <div class="content-heading-bottom container">
+        <ul>
+            <li>
+                <div class="content-heading-bottom-element">
+                    <div class="content-heading-bottom-element-icon-1">
+                        <i class="fa fa-file-archive-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="content-heading-bottom-element-text">
+                        <a href="#" class="content-heading-bottom-element-link">
+                            <p class="el-link-txt">Consulting</p>
+                            <p class="el-link-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="content-heading-bottom-element">
+                    <div class="content-heading-bottom-element-icon-2">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+
+                    </div>
+                    <div class="content-heading-bottom-element-text">
+                        <a href="#" class="content-heading-bottom-element-link">
+                            <p class="el-link-txt">Design</p>
+                            <p class="el-link-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="content-heading-bottom-element">
+                    <div class="content-heading-bottom-element-icon-3">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="content-heading-bottom-element-text">
+                        <a href="#" class="content-heading-bottom-element-link">
+                            <p class="el-link-txt">Planning</p>
+                            <p class="el-link-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="content-heading-bottom-element">
+                    <div class="content-heading-bottom-element-icon-4">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </div>
+                    <div class="content-heading-bottom-element-text">
+                        <a href="#" class="content-heading-bottom-element-link">
+                            <p class="el-link-txt">Building</p>
+                            <p class="el-link-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="content-rect">
+    <div class="container">
+        <span>Felis dolor integer facilisis habitasse a himenaeos urna aliquam taciti ipsum amet eleifend eros nulla.</span>
+    </div>
+</div>
+<div class="content-projects" id="proj">
+    <div class="container">
+        <div class="content-heading-top">
+        <p class="content-heading-top-services">Our Projects</p>
+        <p class="content-heading-top-symbol">&</p>
+        <p class="content-heading-top-text">Some of the projects we have done since it was founded.</p>
+    </div>
+        <div class="projects-links">
+        <ul id="projects">
+            <li>
+                <a href="#top">
+                    All projects
+                </a>
+            </li>
+            <li>
+                <a href="#top">
+                    Buildings
+                </a>
+            </li>
+            <li>
+                <a href="#top">
+                    Interior design
+                </a>
+            </li>
+            <li>
+                <a href="#top">
+                    Isolation
+                </a>
+            </li>
+            <li>
+                <a href="#top">
+                    Plumbing
+                </a>
+            </li>
+            <li>
+                <a href="#top">
+                    Tiling
+                </a>
+            </li>
+        </ul>
+    <script src="SlickNav/jquery.slicknav.js"></script>
+    <script type="text/javascript">
+                $(document).ready(function(){
+                    $('#projects').slicknav({
+                        prependTo: '.projects-links',
+                        label: 'Projects'
+                    });
+                });
+            </script>
+    </div>
+        <div class="content-gallery clearfix">
+        <div class="gal-cont-top container">
+            <div class="content-gallery-cell-top">
+                <div class="cnt-gl-lnk">
+                    <p class="el-link-txt-2">Creative buildings</p>
+                    <p class="el-link-content-2">Interior design, Buildings</p>
+                    <div class="cnt-icons">
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-gallery-cell-top">
+                <div class="cnt-gl-lnk">
+                    <p class="el-link-txt-2">Creative buildings</p>
+                    <p class="el-link-content-2">Interior design, Buildings</p>
+                    <div class="cnt-icons">
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-gallery-cell-top">
+                <div class="cnt-gl-lnk">
+                    <p class="el-link-txt-2">Creative buildings</p>
+                    <p class="el-link-content-2">Interior design, Buildings</p>
+                    <div class="cnt-icons">
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-gallery-cell-top">
+                <div class="cnt-gl-lnk">
+                    <p class="el-link-txt-2">Creative buildings</p>
+                    <p class="el-link-content-2">Interior design, Buildings</p>
+                    <div class="cnt-icons">
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container clearfix">
+            <div class="content-gallery-cell-bot">
+                <div class="cnt-gl-lnk">
+                    <p class="el-link-txt-2">Creative buildings</p>
+                    <p class="el-link-content-2">Interior design, Buildings</p>
+                    <div class="cnt-icons">
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-gallery-cell-bot">
+                <div class="cnt-gl-lnk">
+                    <p class="el-link-txt-2">Creative buildings</p>
+                    <p class="el-link-content-2">Interior design, Buildings</p>
+                    <div class="cnt-icons">
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-gallery-cell-bot">
+                <div class="cnt-gl-lnk">
+                    <p class="el-link-txt-2">Creative buildings</p>
+                    <p class="el-link-content-2">Interior design, Buildings</p>
+                    <div class="cnt-icons">
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-gallery-cell-bot">
+                <div class="cnt-gl-lnk">
+                    <p class="el-link-txt-2">Creative buildings</p>
+                    <p class="el-link-content-2">Interior design, Buildings</p>
+                    <div class="cnt-icons">
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="content-gallery-footer">
+            <a href="#" class="content-gallery-footer-link">
+                View All Project
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="content-logos-container">
+        <div>
+            <a href="#" class="lg-lnk-1"></a>
+        </div>
+        <div>
+            <a href="#" class="lg-lnk-2"></a>
+        </div>
+        <div>
+            <a href="#" class="lg-lnk-3"></a>
+        </div>
+        <div>
+            <a href="#" class="lg-lnk-4"></a>
+        </div>
+        <div>
+            <a href="#" class="lg-lnk-5"></a>
+        </div>
+</div>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.content-logos-container').slick({
+            setting-name: setting-value
+    });
+    });
+</script>
+<script type="text/javascript">
+    $('.content-logos-container').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        nextArrow: '<i class="fa fa-arrow-right slick-next-l"></i>',
+        prevArrow: '<i class="fa fa-arrow-left slick-prev-l"></i>'
+    });
+</script>
+<div class="comments-container">
+    <div class="container">
+        <div class="content-heading-top-2">
+                <p class="content-heading-top-services-2">What They Say</p>
+                <p class="content-heading-top-symbol-2">&</p>
+            </div>
+        <div class="third-container">
+            <div>
+                <div class="content-avatar">
+                </div>
+                <div class="content-heading-txt">
+                    Lectus sem potenti placerat taciti nullam sit proin
+                    lacus sociis posuere cras eu nostra a aenean maecenas
+                    nibh ad metus. Ad parturient vestibulum mi magnis
+                    adipiscing ullamcorper ac a dolor potenti a eget amet a porttitor.
+                </div>
+                <div class="content-heading-name">
+       <span>
+           John Doe
+       </span>
+       <span class="content-span-symbol">
+           -
+       </span>
+       <span class="content-span-txt">
+            Envato
+       </span>
+                </div>
+            </div>
+            <div>
+                <div class="content-avatar">
+                </div>
+                <div class="content-heading-txt">
+                    Lectus sem potenti placerat taciti nullam sit proin
+                    lacus sociis posuere cras eu nostra a aenean maecenas
+                    nibh ad metus. Ad parturient vestibulum mi magnis
+                    adipiscing ullamcorper ac a dolor potenti a eget amet a porttitor.
+                </div>
+                <div class="content-heading-name">
+       <span>
+           John Doe
+       </span>
+       <span class="content-span-symbol">
+           -
+       </span>
+       <span class="content-span-txt">
+            Envato
+       </span>
+                </div>
+            </div>
+            <div>
+                <div class="content-avatar">
+                </div>
+                <div class="content-heading-txt">
+                    Lectus sem potenti placerat taciti nullam sit proin
+                    lacus sociis posuere cras eu nostra a aenean maecenas
+                    nibh ad metus. Ad parturient vestibulum mi magnis
+                    adipiscing ullamcorper ac a dolor potenti a eget amet a porttitor.
+                </div>
+                <div class="content-heading-name">
+       <span>
+           John Doe
+       </span>
+       <span class="content-span-symbol">
+           -
+       </span>
+       <span class="content-span-txt">
+            Envato
+       </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.third-container').slick({
+            setting-name: setting-value
+    });
+    });
+</script>
+<script type="text/javascript">
+    $('.third-container').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        nextArrow: '<i class="slick-next-a"></i>',
+        prevArrow: '<i class="slick-prev-a"></i>'
+    });
+</script>
+<div class="blog">
+    <div class="container">
+        <div class="content-heading-top">
+        <p class="content-heading-top-blog">Blog</p>
+        <p class="content-heading-top-symbol">&</p>
+        <p class="content-heading-top-text">Nulla nullam a mattis semper a vestibulum commodo mi consectetur a penatibus.</p>
+    </div>
+     <div class="content-article container">
+        <div class="content-article-cell">
+            <div class="content-article-inner">
+                <p class="article-header">
+                    Aptent id id inceptos nam pretium
+                </p>
+                <p class="article-content">
+                    Id nulla cum mi diam dui quam mi donec
+                    dui parturient cum suscipit amet vel suspendisse
+                    fringilla. Donec a vulputate aenean iaculis in id nibh a odio.
+                </p>
+                <a href="" class="article-content-link">
+                    Read more
+                </a>
+            </div>
+        </div>
+        <div class="content-article-cell">
+            <div class="content-article-inner">
+                <p class="article-header">
+                    Nulla nullam a mattis semper a vestibulum
+                </p>
+                <p class="article-content">
+                    Adipiscing netus purus amet ut dui consequat
+                    suspendisse semper duis laoreet fermentum a
+                    a ligula ut posuere parturient.Per commodo.
+                </p>
+                <a href="" class="article-content-link">
+                    Read more
+                </a>
+            </div>
+        </div>
+        <div class="content-article-cell">
+            <div class="content-article-inner">
+                <p class="article-header">
+                    Vestibulum praesent parturient tellus
+                </p>
+                <p class="article-content">
+                    Porta habitasse litora nunc vel primis
+                    dolor id fames egestas parturient blandit
+                    in blandit ad. Mus a hac a ac cras blandit
+                    himenaeos condimentum.
+                </p>
+                <a href="" class="article-content-link">
+                    Read more
+                </a>
+            </div>
+        </div>
+        <div class="content-article-cell">
+            <div class="content-article-inner">
+                <p class="article-header">
+                    Leo magnis phasellus porttitor at tempor
+                </p>
+                <p class="article-content">
+                    Felis dolor integer facilisis habitasse
+                    a himenaeos urna aliquam taciti ipsum amet
+                    eleifend eros nulla quisque penatibus orci.
+                    Vel sed.
+                </p>
+                <a href="" class="article-content-link">
+                    Read more
+                </a>
+            </div>
+        </div>
+    </div>
+        <div class="content-gallery-footer">
+        <a href="#" class="content-gallery-footer-link">
+            View All Blog Post
+            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+        </a>
+    </div>
+    </div>
+</div>
+<div class="footer-top">
+    <div class="container">
+        <div class="footer-txt-lnk">
+            <span>If you like the theme you just purchased in architurex!</span>
+            <a href="#" class="footer-content-link">Buy now</a>
+        </div>
+    </div>
+</div>
+<div class="footer-bottom">
+    <div class="container">
+        <div class="footer-logo">
+        <span>Architecture</span>
+    </div>
+        <div class="footer">
+        <a href="https://www.facebook.com/" class="footer-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/" class="footer-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://plus.google.com/" class="footer-google"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/" class="footer-linked"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/" class="footer-insta"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </div>
+        <div class="footer-copyright">
+            Copyright © 2015Theme Design by Enes Aktaş
+        </div>
+    </div>
+</div>
+</body>
+</html>

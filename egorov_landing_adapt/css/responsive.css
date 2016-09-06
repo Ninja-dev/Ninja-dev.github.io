@@ -1,0 +1,283 @@
+@media screen and (max-width: 1919px) and (min-width: 1200px ) {
+    .wrapper {
+        width: 1170px;
+        margin: 0 auto;
+    }
+    .slick-list-photo {
+        width: 100%;
+    }
+    
+    figure {
+        float: none;
+        display: inline-block;
+    }
+    figure:nth-child(3) {
+        margin-right: 10px;
+    }
+    figure:nth-child(5) {
+        margin-bottom: 9px;
+    }
+}
+@media screen and (max-width: 1200px ) and (min-width: 993px ) {
+    .wrapper {
+        width: 970px;
+        margin: 0 auto;
+    }
+    .slider-wrap img {
+        width: 100%;
+    }
+    figure {
+        float: none;
+        display: inline-block;
+    }
+    figure:nth-child(5) {
+        margin: 9px auto;
+    }
+}
+@media screen and (max-width: 992px ) and (min-width: 769px ) {
+    .wrapper, .container {
+        width: 750px;
+        margin: 0 auto;
+    }
+    .slick-list-photo {
+        width: 100%;
+    }
+    .slider-content {
+        top: calc(50% - 192px);
+        left: calc(50% - 280px);
+    }
+    .slider-head {
+        padding-top: 14%;
+    }
+
+    .us-top {
+        padding: 0 140px 40px;
+    }
+    figure {
+        float: none;
+        display: inline-block;
+    }
+    figure img {
+        width: 100%;
+    }
+    figure:nth-child(5) {
+        margin: 9px auto;
+    }
+}
+@media screen and (max-width: 768px ) and (min-width: 480px ) {
+    .wrapper, .container {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    legend {
+        width: auto;
+        margin-bottom: 22px;
+        font-size: 36px;
+    }
+    .slick-list-photo {
+        width: 100%;
+    }
+    .slider-content {
+        width: 430px;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+    .slider-head {
+        padding-top: 14%;
+        padding-bottom: 1%;
+        font-size: 32px;
+        letter-spacing: .1em;
+        display: inline-block;
+        background: url("../images/ellipse-small.png") no-repeat center;
+        background-position-y: 0;
+    }
+    .slider-text {
+        font-size: 12px;
+        letter-spacing: normal;
+        line-height: 18px;
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 1%;
+        left: 50%;
+    }
+    .us-wrap {
+        margin: 90px auto 94px;
+    }
+    .us-content {
+        width: 100%;
+    }
+    .us-text {
+        width: 100%;
+    }
+    .us-top {
+        padding: 0 22px 40px;
+    }
+    .services-wrap {
+        padding-top: 55px;
+    }
+    .services-text {
+        padding: 0 24px 40px;
+    }
+    .we-do-wrap {
+        margin: 90px auto 90px;
+    }
+    .we-do-info {
+        width: 100%;
+    }
+    figure {
+        float: none;
+        display: inline-block;
+    }
+    figure img {
+        width: 100%;
+    }
+    figure:nth-child(5) {
+        margin: 9px auto;
+    }
+    figcaption {
+        font-size: 20px;
+    }
+    .contact-wrap {
+        margin: 90px auto 20px;
+    }
+    .contact-text {
+        padding: 0 24px 40px;
+    }
+    .contact-link {
+        padding: 18px 94px;
+    }
+    .cellar {
+        padding: 22px;
+    }
+}
+@media screen and (max-width: 479px ) and (min-width: 320px ) {
+    .slider {
+        display: none;
+    }
+    .wrapper, .container {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    h2 {
+        font-size: 22px;
+        padding-bottom: 22px;
+    }
+    fieldset {
+        padding: 1px;
+    }
+    legend {
+        width: auto;
+        margin-bottom: 22px;
+        font-size: 30px;
+    }
+    .us-wrap {
+        margin: 42px auto 10px;
+    }
+    .us-content {
+        width: 100%;
+    }
+    .us-text {
+        width: 100%;
+    }
+    .us-top {
+        padding: 0 22px 40px;
+    }
+    .services-wrap {
+        padding-top: 55px;
+    }
+    .services-text {
+        padding: 0 24px 40px;
+    }
+    .we-do-wrap {
+        margin: 55px auto 56px;
+    }
+    .we-do-content legend {
+        margin-bottom: 30px;
+    }
+    .we-do-info img {
+        margin-bottom: 25px;
+    }
+    .we-do-info {
+        width: 100%;
+        margin: 0 auto 50px;
+    }
+    figure {
+        float: none;
+        display: inline-block;
+        margin-right: 0;
+    }
+    figure img {
+        width: 100%;
+    }
+    figure:nth-child(5) {
+        margin: 9px auto;
+    }
+    figcaption {
+        font-size: 20px;
+        bottom: 10px;
+        left: 10px;
+    }
+    .contact-wrap {
+        margin: 50px auto 0;
+    }
+    .contact-text {
+        padding: 0 10px 32px;
+    }
+    .contact-link {
+        padding: 18px 50px;
+    }
+    .cellar {
+        padding: 5px 0;
+        width: 292px;
+    }
+    .cellar-text {
+        padding: 7px 0 15px 32px;
+    }
+    header {
+        background: url("../images/ellipse-small.png") no-repeat center, url("../images/photo-small.png") no-repeat center;
+        height: 267px;
+        position: relative;
+        background-position-y: 0;
+    }
+    header:before {
+        font-family: 'Lato', sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: .1em;
+        position: absolute;
+        top: 20%;
+        left: calc(50% - 150px);
+        width: 300px;
+        height: auto;
+        content: 'WORKING WITH DESIGN LAB ';
+        text-align: center;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    header:after {
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        letter-spacing: normal;
+        line-height: 18px;
+        color: #fff;
+        font-weight: bold;
+        position: absolute;
+        bottom: 20%;
+        left: calc(50% - 150px);
+        width: 300px;
+        height: auto;
+        content: ' We ve been helping startups launch and grow their businesses. We help you to fill the gap between development, design and product management.';
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+

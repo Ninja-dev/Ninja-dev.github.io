@@ -1,0 +1,509 @@
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+     .container{
+            width: 970px;
+            padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+
+    .container {
+        width: 750px;
+        padding: 0 15px;
+    }
+
+    .header-logo {
+        padding-left: 0;
+    }
+
+    .header-menu {
+        padding-right: 0;
+    }
+
+    .header-menu-item {
+        margin-right: 0;
+        padding-left: 0;
+
+    }
+
+    .header-content-img {
+        margin-left: 0;
+    }
+
+    .header-content-text {
+        margin-right: 0;
+        margin-top: 30px;
+    }
+
+    .header-content-text-title {
+        padding-bottom: 15px;
+    }
+
+    .header-content-text-subtitle {
+        padding-bottom: 15px;
+    }
+
+    .header-content-text-wrapper {
+        margin-top: 25px;
+    }
+
+    .header-content-text-btn {
+        width: 115px;
+    }
+
+    .icon-tv {
+        margin-left: 1px;
+    }
+
+    .header-content-text-view {
+        float: right;
+        margin-left: 0;
+    }
+
+    .menu-interfaces {
+        margin-left: 0;
+    }
+
+    .menu-development {
+        margin-right: 0;
+    }
+
+    .menu-interfaces,
+    .menu-development,
+    .menu-designs {
+        width: 31%;
+    }
+
+    .footer-blog {
+        float: none;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .footer-twitter {
+        float: none;
+        margin-left: 9.41%;
+        margin-right: 0;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .footer-blog-work-content,
+    .footer-blog-appcompany-content {
+        width: 69%;
+    }
+
+    .footer-blog-work-title,
+    .footer-blog-work-text,
+    .footer-blog-work-data,
+    .footer-blog-appcompany-title,
+    .footer-blog-appcompany-text,
+    .footer-blog-appcompany-data {
+        width: 100%;
+    }
+
+    .footer-twitter-content {
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 480px) {
+
+    .container {
+        width: 100%;
+        padding: 0 15px;
+}
+    .header-logo {
+        float: none;
+        text-align: center;
+        padding-top: 25px;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .header-menu-link {
+        width: 50%;
+    }
+
+    .slicknav_menu{
+        display: block;
+    }
+
+    .header-menu {
+       display: none;
+    }
+
+    .header-content-image {
+        display: none;
+    ;}
+
+
+    .header-content-text {
+        margin-right: 0;
+        padding-right: 30px;
+        float: none;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .header-content-text-title,
+    .header-content-text-subtitle,
+    .header-content-text-main{
+        margin-right: 10px;
+        padding-bottom: 30px;
+    }
+
+    .header-content-text-view-or {
+        font-weight: 400;
+        padding: 0 20px;
+}
+    .header-menu-item{
+        width: 25%;
+        text-align: center;
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .menu-interfaces {
+        margin-left: 0;
+    }
+
+    .mobile-menu{
+        font-family: 'Conv_HelveticaNeueCyr-Roman';
+        font-size: 22px;
+    }
+
+    .slicknav_btn{
+        padding: 15px 20px;
+        color: white;
+        display: block;
+        text-decoration: none;
+        margin: 0 -15px;
+}
+
+      .slicknav_btn .fa.fa-bars{
+        float: right;
+        position: relative;
+        top: 1px;
+        padding-right: 20px;
+    }
+
+      .logo-line-content-element{
+          margin: 0 2%;;
+          width: auto;
+      }
+
+    .menu-development {
+        margin-right: 0;
+    }
+
+    .menu-interfaces,
+    .menu-development,
+    .menu-designs {
+        width: 100%;
+        margin: 0 10px;
+        display: inline-block;
+        float: none;
+    }
+
+    .menu-btn{
+        display: inline-block;
+        margin: 25px 0 35px;
+    }
+
+    .menu{
+        margin-top: 35px;
+    }
+
+    .slider-search-text a{
+        margin-top: 40px;
+    }
+
+    .slider-search-ico{
+        margin-top: 45px;
+    }
+    .footer-blog {
+        float: none;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .footer-twitter {
+        float: none;
+        margin-left: 9.41%;
+        margin-right: 0;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .footer-blog-work-content,
+    .footer-blog-appcompany-content {
+        width: 69%;
+    }
+
+    .footer-blog-work-title,
+    .footer-blog-work-text,
+    .footer-blog-work-data,
+    .footer-blog-appcompany-title,
+    .footer-blog-appcompany-text,
+    .footer-blog-appcompany-data {
+        width: 100%;
+    }
+
+    .footer-twitter-content {
+        display: inline-block;
+    }
+
+    .slick-next{
+        right: -40px;
+    }
+
+    .slick-prev{
+        left: -40px;
+}
+    .footer-blog-work{
+        float: left;
+        width: 50%;
+        margin: 0;
+    }
+
+    .footer-blog-appcompany{
+        float: right;
+        width: 50%;
+        margin: 0;
+    }
+
+    .footer-blog-appcompany-content,
+    .footer-blog-work-content{
+        margin: 0;
+    }
+
+    .footer-blog-appcompany-title,
+    .footer-blog-work-title,
+    .footer-blog-appcompany-text,
+    .footer-blog-work-text,
+    .footer-blog-appcompany-data,
+    .footer-blog-work-data{
+        margin-left: 0;
+    }
+
+    .footer-twitter,
+    .footer-blog{
+        margin-left: 0;
+    }
+
+    .footer-twitter-content{
+        width: 97%;
+    }
+
+}
+
+
+@media screen and (max-width: 479px) and (min-width: 320px){
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+
+
+    .header-logo {
+        float: none;
+        text-align: center;
+        padding-top: 25px;
+        padding-left: 0;
+        margin: 0;
+    }
+
+
+
+    .slicknav_menu{
+        display: block;
+    }
+
+    .header{
+        height: 700px;
+    }
+
+    .header-menu {
+       display: none;
+    }
+
+    .header-content-image {
+        display: none;
+    ;}
+
+
+    .header-content-text {
+        margin-right: 0;
+        padding-right: 30px;
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .header-content-text-title,
+    .header-content-text-subtitle,
+    .header-content-text-main{
+        margin-right: 10px;
+        padding-bottom: 30px;
+    }
+
+    .header-content-text-view-or {
+        font-weight: 400;
+        padding: 0 20px;
+}
+    .header-menu-item{
+        width: 50%;
+        text-align: center;
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .header-content-text-wrapper{
+        margin-top: 0;
+    }
+
+    .menu-interfaces {
+        margin-left: 0;
+    }
+
+    .mobile-menu{
+        font-family: 'Conv_HelveticaNeueCyr-Roman';
+        font-size: 22px;
+    }
+
+    .slicknav_btn{
+        padding: 15px 20px;
+        color: white;
+        display: block;
+        text-decoration: none;
+        margin: 0 -15px;
+}
+
+      .slicknav_btn .fa.fa-bars{
+        float: right;
+        position: relative;
+        top: 1px;
+        padding-right: 20px;
+    }
+
+      .logo-line-content-element{
+          width: auto;
+          padding: 27px 3.6%;
+      }
+
+      .logo{
+          width: 50%;
+      }
+
+    .menu-development {
+        margin-right: 0;
+    }
+
+    .menu-interfaces,
+    .menu-development,
+    .menu-designs {
+        width: 90%;
+        margin: 0;
+        display: inline-block;
+        float: none;
+    }
+
+    .menu-btn{
+        display: inline-block;
+        margin: 25px 0 35px;
+    }
+
+    .menu{
+        margin-top: 35px;
+    }
+
+    .slider-search-text a{
+        margin-top: 40px;
+    }
+
+    .slider-search-ico{
+        margin-top: 45px;
+    }
+    .footer-blog {
+        float: none;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .footer-twitter {
+        float: none;
+        margin-left: 9.41%;
+        margin-right: 0;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .footer-blog-work-content,
+    .footer-blog-appcompany-content {
+        width: 69%;
+    }
+
+    .footer-blog-work-title,
+    .footer-blog-work-text,
+    .footer-blog-work-data,
+    .footer-blog-appcompany-title,
+    .footer-blog-appcompany-text,
+    .footer-blog-appcompany-data {
+        width: 100%;
+    }
+
+    .footer-twitter-content {
+        display: inline-block;
+    }
+
+    .slick-next{
+        right: -40px;
+    }
+
+    .slick-prev{
+        left: -40px;
+}
+    .footer-blog-work{
+        float: left;
+        width: 50%;
+        margin: 0;
+    }
+
+    .footer-blog-appcompany{
+        float: right;
+        width: 50%;
+        margin: 0;
+    }
+
+    .footer-blog-appcompany-content,
+    .footer-blog-work-content{
+        margin: 0;
+    }
+
+    .footer-blog-appcompany-title,
+    .footer-blog-work-title,
+    .footer-blog-appcompany-text,
+    .footer-blog-work-text,
+    .footer-blog-appcompany-data,
+    .footer-blog-work-data{
+        margin-left: 0;
+    }
+
+    .footer-twitter,
+    .footer-blog{
+        margin-left: 0;
+    }
+
+    .footer-twitter-content{
+        width: 97%;
+    }
+
+    .copyright-content-social{
+        margin-top: 0;
+    }
+}
+
+
+
+
+

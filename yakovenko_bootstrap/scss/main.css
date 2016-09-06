@@ -1,0 +1,562 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'Oleo Script Bold';
+  src: url("../fonts/oleoscript-bold.eot");
+  src: url("../fonts/oleoscript-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/oleoscript-bold.woff2") format("woff2"), url("../fonts/oleoscript-bold.woff") format("woff"), url("../fonts/oleoscript-bold.ttf") format("truetype"), url("../fonts/oleoscript-bold.svg#oleo_scriptbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Oleo Script Regular';
+  src: url("../fonts/oleoscript-regular.eot");
+  src: url("../fonts/oleoscript-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/oleoscript-regular.woff2") format("woff2"), url("../fonts/oleoscript-regular.woff") format("woff"), url("../fonts/oleoscript-regular.ttf") format("truetype"), url("../fonts/oleoscript-regular.svg#oleo_scriptregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Raleway Light';
+  src: url("../fonts/raleway-light.eot");
+  src: url("../fonts/raleway-light.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-light.woff2") format("woff2"), url("../fonts/raleway-light.woff") format("woff"), url("../fonts/raleway-light.ttf") format("truetype"), url("../fonts/raleway-light.svg#ralewaylight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Raleway Medium';
+  src: url("../fonts/raleway-medium.eot");
+  src: url("../fonts/raleway-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-medium.woff2") format("woff2"), url("../fonts/raleway-medium.woff") format("woff"), url("../fonts/raleway-medium.ttf") format("truetype"), url("../fonts/raleway-medium.svg#ralewaymedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url("../fonts/raleway-regular.eot");
+  src: url("../fonts/raleway-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-regular.woff2") format("woff2"), url("../fonts/raleway-regular.woff") format("woff"), url("../fonts/raleway-regular.ttf") format("truetype"), url("../fonts/raleway-regular.svg#ralewayregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Raleway Semibold';
+  src: url("../fonts/raleway-semibold.eot");
+  src: url("../fonts/raleway-semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-semibold.woff2") format("woff2"), url("../fonts/raleway-semibold.woff") format("woff"), url("../fonts/raleway-semibold.ttf") format("truetype"), url("../fonts/raleway-semibold.svg#ralewaysemibold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Orator Std';
+  src: url("../fonts/OratorStd.eot");
+  src: local("тШ║"), url("../fonts/OratorStd.woff") format("woff"), url("../fonts/OratorStd.ttf") format("truetype"), url("../fonts/OratorStd.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url("../fonts/open-sans-regular.eot");
+  src: url("../fonts/open-sans-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-regular.woff2") format("woff2"), url("../fonts/open-sans-regular.woff") format("woff"), url("../fonts/open-sans-regular.ttf") format("truetype"), url("../fonts/open-sans-regular.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/*
+	font-family: 'Oleo Script Bold'; -
+	font-family: 'Oleo Script Regular'; -
+	font-family: 'Raleway Light'; -
+	font-family: 'Raleway Medium'; -
+	font-family: 'Raleway Regular'; +
+	font-family: 'Raleway Semibold'; +
+	font-family: 'Orator Std'; -
+	font-family: 'Open Sans Regular'; -
+*/
+/*
+Structure:
+	1.  Base Style
+*/
+/*----------Base-Style---------- 1-*/
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font: 16px/1 'Raleway Regular', Arial, Helvetica, sans-serif;
+  color: #333;
+  background: #fff; }
+
+a,
+a > * {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+/*----------Utilits---------*/
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.wrapper_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0; }
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.bold-vinous,
+.bold-vinous {
+  font-family: 'Raleway Semibold', Arial, Helvetica, sans-serif; }
+
+.bold-vinous {
+  color: #7b6c63; }
+
+.bold-white {
+  color: #ffffff; }
+
+/*----------Site-Header-Style---------*/
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #303030;
+  padding: 17px 0 19px 0;
+  z-index: 200; }
+
+.site-logo {
+  font: 48px 'Oleo Script Regular', Arial, Helvetica, sans-serif; }
+
+.site-logo__link {
+  color: #ffffff;
+  transition: all 230ms ease-in-out; }
+  .site-logo__link:hover {
+    color: #7b6c63; }
+
+.header-nav__list {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px; }
+
+.header-nav__item {
+  float: left;
+  margin-left: 40px; }
+  .header-nav__item:first-child {
+    margin-left: 0; }
+
+.header-nav__link {
+  display: inline-block;
+  color: #ffffff;
+  position: relative;
+  transition: all 230ms ease-in-out; }
+  .header-nav__link:hover {
+    color: #7b6c63; }
+  .header-nav__link:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #7b6c63;
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    transition: all 230ms ease-in-out;
+    transform: scaleX(0); }
+  .header-nav__link:hover:before {
+    transform: scaleX(1); }
+
+/*----------Promo-Section-Style----------*/
+.promo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../img/bg-promo.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  /*padding: 149px 10px 186px; ADD ON TABLET!*/ }
+
+.promo-content {
+  width: 1170px; }
+
+.promo-content__slogan {
+  font-size: 66px;
+  line-height: 71px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 58px; }
+
+.promo-content__slogan_small {
+  display: inline-block;
+  font-size: 24px;
+  letter-spacing: 2.4px;
+  margin-bottom: 16px; }
+
+/*----------Section-Caption-Style----------*/
+.section-caption {
+  max-width: 555px;
+  margin: 0 auto;
+  padding: 88px 10px 90px;
+  text-align: center; }
+
+.section-caption__title {
+  font-size: 40px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  margin-bottom: 90px;
+  position: relative; }
+  .section-caption__title:before {
+    content: '';
+    width: 76px;
+    height: 6px;
+    background: #7b6c63;
+    position: absolute;
+    bottom: -49px;
+    left: 50%;
+    margin-left: -38px; }
+
+.section-caption__text {
+  font-size: 18px;
+  letter-spacing: .8px;
+  line-height: 28px;
+  color: #212121; }
+
+/*About-Section*/
+.about-section {
+  padding: 0 0 71px 0; }
+
+/*----------Lighting-Block-Style---------*/
+.lighting-block {
+  padding: 90px 10px 86px;
+  text-align: center;
+  max-width: 990px;
+  margin: 0 auto; }
+
+.lighting-block_dark {
+  background: #1a1a1a;
+  max-width: 100%; }
+
+.lighting-block__title {
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 25px; }
+
+.lighting-block__text {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  color: #000000; }
+
+.lighting-block__text_white {
+  color: #ffffff; }
+
+.lighting-block__link {
+  display: inline-block;
+  padding-top: 30px;
+  font-size: 18px;
+  color: #29c5f2; }
+  .lighting-block__link:hover {
+    opacity: .75; }
+
+/*services-list*/
+.services-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+
+.services-list__item {
+  width: 29%; }
+
+.services-list__icon {
+  font-size: 30px;
+  color: #7b6c63;
+  margin-bottom: 30px; }
+
+.services-list__title {
+  font-size: 18px;
+  letter-spacing: 1.0px;
+  text-transform: uppercase;
+  color: #363636;
+  margin-bottom: 20px; }
+
+.services-list__text {
+  color: #949494;
+  line-height: 24px;
+  letter-spacing: 0.8px; }
+
+/*----------Projects-List-Style----------*/
+.projects-list {
+  display: flex; }
+
+.projects-list__item {
+  width: 25%; }
+
+.item {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: relative; }
+  .item:hover .item__overlay {
+    background: rgba(0, 0, 0, 0.8);
+    transform: scale(0.9);
+    transition: all 370ms ease-in-out; }
+  .item:hover .overlay__title {
+    opacity: 1; }
+  .item:hover .overlay__title:before {
+    left: calc(50% - 18px);
+    opacity: 1; }
+  .item:hover .overlay__subtitle {
+    opacity: 1; }
+
+.item__img {
+  display: block;
+  position: relative; }
+
+.item__overlay {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transform: scale(0);
+  transition: all 270ms ease-in-out; }
+
+.overlay__title,
+.overlay__subtitle {
+  opacity: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 100%; }
+
+.overlay__title {
+  font: 18px/20px 'Raleway Medium', Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+  position: relative; }
+  .overlay__title:before {
+    content: "";
+    display: block;
+    width: 36px;
+    height: 4px;
+    background: #ffffff;
+    position: absolute;
+    opacity: 0;
+    bottom: -29px; }
+
+.overlay__subtitle {
+  font: 14px/16px 'Raleway Light', Arial, Helvetica, sans-serif; }
+
+.overlay__link {
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0; }
+
+.projects-section__button-box {
+  padding: 90px 10px;
+  text-align: center; }
+
+/*----------Team-Section-Style*/
+.team-section {
+  background: #fbfaf8;
+  padding-bottom: 90px; }
+
+.team-list {
+  display: flex;
+  justify-content: space-between; }
+
+.team-list_item {
+  width: 20%; }
+
+.member {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+  .member:hover .social-networks__list {
+    opacity: 1;
+    transition: all 270ms ease-in-out; }
+  .member:hover .member-data {
+    border: 3px solid #000000;
+    margin: -3px 0; }
+
+.member__overlay {
+  position: relative;
+  margin-bottom: 25px; }
+
+.member__photo {
+  display: block; }
+
+.social-networks__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  transition: all 270ms ease-in-out;
+  opacity: 0; }
+
+.social-networks__item {
+  margin-left: 13px; }
+  .social-networks__item:first-child {
+    margin-left: 0px; }
+
+.social-networks__link {
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 12px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  transition: all 270ms ease-in-out; }
+  .social-networks__link i {
+    width: 22px; }
+  .social-networks__link:hover {
+    color: #29c5f2;
+    border-color: #29c5f2; }
+
+.member-data {
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  padding: 21px 10px;
+  position: relative;
+  transition: color 230ms ease-in-out; }
+  .member-data:hover {
+    opacity: 0.75; }
+
+.member-data__name {
+  font-size: 24px;
+  letter-spacing: 1.1px;
+  margin-bottom: 12px; }
+
+.member-data__position {
+  font: 14px/16px 'Orator Std', Arial, Helvetica, sans-serif;
+  letter-spacing: 1.9px; }
+
+.member-data__link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+/*----------Testimonials-Section-Style----------*/
+.testimonials-section {
+  background: #1a1a1a;
+  padding: 86px 0; }
+
+.testimonials-section__title {
+  font: 24px/28px 'Raleway Semibold', Arial, Helvetica, sans-serif;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 31px;
+  color: #ffffff; }
+
+.testimonials-slider {
+  padding: 0 0 52px 0; }
+
+.testimonials-slider__item {
+  font: 18px/20px 'Raleway Light', Arial, Helvetica, sans-serif;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  color: #929292; }
+
+.testimonials__text {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.4px;
+  margin-bottom: 46px; }
+
+.testimonials__author {
+  display: block;
+  font-size: 18px;
+  color: #7b6c63;
+  margin-bottom: 17px; }
+
+.testimonials__link {
+  color: #29c5f2; }
+  .testimonials__link:hover {
+    opacity: .75; }
+
+/*----------Buttons-Style----------*/
+.btn {
+  display: inline-block;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.7px; }
+  .btn .fa {
+    padding-left: 6px; }
+
+.btn_default {
+  color: #000000;
+  border: 2px #000000 solid;
+  border-radius: 5px;
+  padding: 16px 36px;
+  transition: all 300ms ease-in-out; }
+  .btn_default:hover {
+    background: #1a1a1a;
+    color: #ffffff; }
+
+.btn_promo {
+  color: #ffffff;
+  background: #25221e;
+  padding: 21px 64px; }
+
+/*# sourceMappingURL=main.css.map */

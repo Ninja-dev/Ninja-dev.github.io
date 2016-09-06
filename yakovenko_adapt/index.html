@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pick</title>
+
+	<meta name="author" content="Igor Yalovenko">
+	<meta name="description" content="List your car for selling">
+	<meta name="keyword" content="rent car, sell car">
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/slick/slick.css">
+	<link rel="stylesheet" href="css/jquery-ui/jquery-ui.css">
+	<link rel="stylesheet" href="css/animatecss/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+	<script type="text/javascript" src="js/fontfaceobserver/fontfaceobserver.js"></script>
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shivjs/html5shiv.min.js"></script>
+		<script src="js/respondjs/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<header>
+		<div class="header-top">
+
+			<div class="wrapper clearfix">
+				<div class="header-logo">
+					<a href="#" class="header-logo-link">
+						<img class="header-logo-img" src="img/logo.png" alt="Pick">
+					</a>
+				</div>
+
+				<nav class="top-nav">
+					<ul class="top-nav-list clearfix">
+						<li class="top-nav-item"><a class="top-nav-link" href="#">Get started</a></li>
+						<li class="top-nav-item"><a class="top-nav-link" href="#">Sign in</a></li>
+						<li class="top-nav-item"><a class="top-nav-link" href="#">Help</a></li>
+						<li class="top-nav-item"><a class="top-nav-link btn btn--top-nav" href="#">List a car</a></li>
+					</ul>
+				</nav>
+			</div><!-- End Wrapper -->
+
+		</div><!-- End Header Top -->
+
+		<nav class="main-nav">
+			<ul class="main-nav-list">
+				<li class="main-nav-item"><a class="main-nav-link main-nav-link--active" href="#">Home</a></li>
+				<li class="main-nav-item"><a class="main-nav-link" href="#">Venichles</a></li>
+				<li class="main-nav-item"><a class="main-nav-link" href="#">Why us</a></li>
+				<li class="main-nav-item"><a class="main-nav-link" href="#">Terms</a></li>
+				<li class="main-nav-item"><a class="main-nav-link" href="#">Featured car</a></li>
+			</ul>
+		</nav>	
+	</header>
+
+	<!-- Banner -->
+	<section class="banner">
+		<img class="banner-img" src="img/banner-logo.png" alt="banner-logo">
+		<h1 class="banner-title">Rent or buy cars, pick your ride from our gallery</h1>
+	</section>
+
+	<section class="blue-bg">
+		<div class="container">
+
+			<!-- Inventory -->
+			<div class="inventory">
+				
+				<div class="section-caption section-caption--inventory">
+					<h2 class="section-caption-title">Make a quick inventory</h2>
+					<p class="section-caption-text">Search for your favorite vehichle here</p>
+				</div>
+
+				<div class="inventory-form-box clearfix">
+
+					<div class="inventory-form-item">
+						<form class="inventory-form">
+							<p class="select-box">
+								<label class="select-form-label" for="vehichle"><i class="icon icon-vehichle"></i>Vehichle-type</label>
+								<select class="select-form" id="vehichle">
+									<option class="select-form-option">Motor bike</option>
+									<option class="select-form-option">Electrocar</option>
+									<option class="select-form-option">Сommercial vehicle</option>
+								</select>
+							</p>
+						</form>
+
+						<span class="select-form-title"><i class="icon icon-color"></i>Body color</span>
+
+						<ul class="select-color clearfix">
+							<li class="color-item"><a class="color-circle color-circle--white" href=""></a></li>
+							<li class="color-item"><a class="color-circle color-circle--black" href=""></a></li>
+							<li class="color-item"><a class="color-circle color-circle--red" href=""></a></li>
+							<li class="color-item"><a class="color-circle color-circle--lightblue" href=""></a></li>
+							<li class="color-item"><a class="color-circle color-circle--green" href=""></a></li>
+							<li class="color-item"><a class="color-circle color-circle--blue" href=""></a></li>
+							<li class="color-item"><a class="color-circle color-circle--yellow" href=""></a></li>
+						</ul>	
+					</div><!-- End Inventory Form Item -->
+
+					<div class="inventory-form-item form-item--pdl">
+						<form class="inventory-form">
+							<p class="select-box">
+								<label class="select-form-label" for="Brand"><i class="icon icon-brand"></i>Vehichle Brand</label>
+								<select class="select-form" id="Brand">
+									<option class="select-form-option">Honda</option>
+									<option class="select-form-option">Tesla</option>
+									<option class="select-form-option">Volvo</option>
+								</select>
+							</p>
+
+							<div class="range-box">
+								<p class="select-form-label select-form-label--range"><i class="icon icon-price"></i>Price Range</p>	<div id="slider-range"></div>
+							</div>
+						</form>					
+					</div><!-- End Inventory Form Item -->
+
+				</div><!-- End Inventory Form Box -->
+
+				<div class="inventory-btn-box">
+					<a class="btn btn--inventory" href="#">Search Vehichles</a>
+				</div>
+
+				<img class="banner-men" src="img/banner-men.png" alt="men">
+				<img class="banner-car" src="img/banner-car.png" alt="car">
+			</div><!-- End Inventory -->
+
+			<!-- Gallary -->
+			<div class="gallary">
+
+				<div class="section-caption section-caption--gallary">
+					<h2 class="section-caption-title section-caption-title--gallary section-caption-title--white">Our Vehichle Gallery</h2>
+					<p class="section-caption-text section-caption-text--gallary section-caption-text--white">Find Out Your Favorite Vehichle Now</p>
+				</div>
+			
+				<div class="gallary-box clearfix">
+
+					<!-- 3 gallary item-->				
+					<figure class="gallary-item gallary-item--bottom-margin">
+						<a class="gallary-link" href="#">
+							<img class="gallary-img" src="img/gallary/gallary-img-1.jpg" alt="Racing Car">
+						</a>
+						<figcaption class="gallary-caption">Racing Car</figcaption>
+						<span class="gallary-img-counter">40</span>
+					</figure>					
+							
+					<figure class="gallary-item gallary-item--bottom-margin">
+						<a class="gallary-link" href="#">
+							<img class="gallary-img" src="img/gallary/gallary-img-2.jpg" alt="Cycle">
+						</a>
+						<figcaption class="gallary-caption">Cycle</figcaption>
+						<span class="gallary-img-counter">40</span>
+					</figure>					
+								
+					<figure class="gallary-item gallary-item--bottom-margin gallary-item--none-margin">
+						<a class="gallary-link" href="#">
+							<img class="gallary-img" src="img/gallary/gallary-img-3.jpg" alt="Vespa">
+						</a>
+						<figcaption class="gallary-caption">Vespa</figcaption>
+						<span class="gallary-img-counter">40</span>
+					</figure>								
+
+					<!-- The next 3 gallary item -->
+					<figure class="gallary-item">
+						<a class="gallary-link" href="#">
+							<img class="gallary-img" src="img/gallary/gallary-img-4.jpg" alt="Motor Bike">
+						</a>
+						<figcaption class="gallary-caption">Motor Bike</figcaption>
+						<span class="gallary-img-counter">40</span>
+					</figure>					
+							
+					<figure class="gallary-item">
+						<a class="gallary-link" href="#">
+							<img class="gallary-img" src="img/gallary/gallary-img-5.jpg" alt="Vespa">
+						</a>
+						<figcaption class="gallary-caption">Vespa</figcaption>
+						<span class="gallary-img-counter">40</span>
+					</figure>					
+								
+					<figure class="gallary-item gallary-item--none-margin">
+						<a class="gallary-link" href="#">
+							<img class="gallary-img" src="img/gallary/gallary-img-6.jpg" alt="Private Car">
+						</a>
+						<figcaption class="gallary-caption">Private Car</figcaption>
+						<span class="gallary-img-counter">40</span>
+					</figure>					
+									
+				</div><!--End Gallary Row-->
+
+			</div><!-- End Gallary -->
+			<span class="blue-bg-angle-down">
+				<i class="fa fa-angle-down" aria-hidden="true"></i>
+			</span>
+		</div><!-- End Container -->
+	</section><!-- End Blue-bg -->
+
+	<!--Features-->
+	<section class="features">
+		<div class="container">
+			
+			<div class="section-caption section-caption--features">
+				<h2 class="section-caption-title">Our Features</h2>
+				<p class="section-caption-text">Search For Your Favorite Vehichle Here</p>
+			</div>
+
+			<div class="features-box clearfix">
+				
+				<div class="features-item">
+					<img class="features-icon" src="img/features-icon-1.png" alt="Customer Support">
+					<h3 class="features-title">24/7 Customer Support</h3>
+					<p class="features-text">Lorem ipsum dolore sit amet, consectetur adipisicing elit, sed do eiusmod teaadmpor incidunt</p>
+					<a class="btn btn--features" href="">Read more</a>
+				</div>
+
+				<div class="features-item features-item--active">
+					<img class="features-icon" src="img/features-icon-2.png" alt="Customer Support">
+					<h3 class="features-title features-title--active">Large Vehichle Gallery</h3>
+					<p class="features-text">Lorem ipsum dolore sit amet, consectetur adipisicing elit, sed do eiusmod teaadmpor incidunt</p>
+					<a class="btn btn--features btn--features-active" href="">Read more</a>
+				</div>
+
+				<div class="features-item">
+					<img class="features-icon" src="img/features-icon-3.png" alt="Customer Support">
+					<h3 class="features-title">Book From Online</h3>
+					<p class="features-text">Lorem ipsum dolore sit amet, consectetur adipisicing elit, sed do eiusmod teaadmpor incidunt</p>
+					<a class="btn btn--features" href="">Read more</a>
+				</div>
+
+			</div><!-- End Features-box -->
+
+		</div><!-- End Container-->
+	</section><!-- End Features-->
+
+	<section class="sell blue-bg">
+		<div class="container">
+			
+			<div class="section-caption">
+				<h2 class="section-caption-title section-caption-title--sell section-caption-title--white">List Your Car For Selling</h2>
+				<p class="section-caption-text section-caption-text--sell section-caption-text--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut commodo consequat. </p>
+				<a class="btn btn--sell" href="#">List a car</a>
+			</div>
+
+			<img class="sell-car" src="img/sell-car.png" alt="sell-car">
+			<img class="sell-word" src="img/sell.png" alt="sell word">
+		</div>
+	</section><!-- End Sell -->
+
+	<!-- Container For Testemonials and Brend -->
+	<div class="container">
+			
+		<!-- Testimonials -->
+		<div class="testimonials">	
+
+			<!-- Testimonials Box/Slide Jennifer Anderstone -->
+			<div class="testimonials-box">
+				<div class="testimonials-avatar">
+					<figure class="testimonials-avatar-box">
+						<img class="testimonials-avatar-img" src="img/testimonials-avatar-1.png" alt="Jennifer Anderstone">
+					</figure>
+				</div>	
+				<span class="testimonials-stars">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+				</span>
+				<p class="testimonials-text">Just bought a second hand car from PICK, looks great to me, also the price is reasonable for me. I told some of my friends to check your car gallery.</p>
+				<span class="testimonials-author">- Jennifer Anderstone -</span>
+			</div><!-- End Testimonials Box/Jennifer Anderstone -->
+
+			<!-- Testimonials Box/Slide Rooney Mara -->
+			<div class="testimonials-box">
+				<div class="testimonials-avatar">
+					<figure class="testimonials-avatar-box">
+						<img class="testimonials-avatar-img" src="img/testimonials-avatar-2.png" alt="Jennifer Anderstone">
+					</figure>
+				</div>	
+				<span class="testimonials-stars">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+				</span>
+				<p class="testimonials-text">As said Jennifer: "just bought a second hand car from PICK, looks great to me, also the price is reasonable for me. I told some of my friends to check your car gallery."</p>
+				<span class="testimonials-author">- Rooney Mara -</span>
+			</div><!-- End Testimonials Box/Rooney Mara -->
+
+			<!-- Testimonials Box/Slide Noomi Rapace -->
+			<div class="testimonials-box">
+				<div class="testimonials-avatar">
+					<figure class="testimonials-avatar-box">
+						<img class="testimonials-avatar-img" src="img/testimonials-avatar-3.png" alt="Jennifer Anderstone">
+					</figure>
+				</div>	
+				<span class="testimonials-stars">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+				</span>
+				<p class="testimonials-text">Just bought a second hand car from PICK, looks great to me, also the price is reasonable for me. I told some of my friends to check your car gallery.</p>
+				<span class="testimonials-author">- Noomi Rapace -</span>
+			</div><!-- End Testimonials Box/Noomi Rapace -->
+
+		</div><!-- End Testimonials -->
+		
+		<span class="testimonials-prev-arrow">
+			<i class="fa fa-angle-up" aria-hidden="true"></i>
+		</span>
+		<span class="testimonials-next-arrow">
+			<i class="fa fa-angle-down" aria-hidden="true"></i>
+		</span>
+
+		<!-- Brand -->
+		<div class="brend">
+			
+			<div class="section-caption">
+				<h2 class="section-caption-title">Some Featured Brands</h2>
+				<p class="section-caption-text">Some Featured Sponsor Brands</p>
+			</div>
+
+			<div class="brend-box">
+				<ul class="brend-list clearfix">
+					<li class="brend-item">
+						<img class="brend-img brend-img--mazda" src="img/brends/mazda.png" alt="">
+					</li>
+					<li class="brend-item">
+						<img class="brend-img brend-img--kia" src="img/brends/kia.png" alt="">
+					</li>
+					<li class="brend-item">
+						<img class="brend-img brend-img--fiat" src="img/brends/fiat.png" alt="">
+					</li>
+					<li class="brend-item">
+						<img class="brend-img brend-img--kia" src="img/brends/kia.png" alt="">
+					</li>
+					<li class="brend-item">
+						<img class="brend-img brend-img--bmw" src="img/brends/bmw.png" alt="">
+					</li>
+
+					<!-- The Next 5 Sliders -->
+					<li class="brend-item">
+						<img class="brend-img brend-img--mazda" src="img/brends/mazda.png" alt="">
+					</li>
+					<li class="brend-item">
+						<img class="brend-img brend-img--kia" src="img/brends/kia.png" alt="">
+					</li>
+					<li class="brend-item">
+						<img class="brend-img brend-img--fiat" src="img/brends/fiat.png" alt="">
+					</li>
+					<li class="brend-item">
+						<img class="brend-img brend-img--kia" src="img/brends/kia.png" alt="">
+					</li>
+					<li class="brend-item">
+						<img class="brend-img brend-img--bmw" src="img/brends/bmw.png" alt="">
+					</li>
+				</ul>
+				<span class="brend-prev-arrow">
+					<i class="fa fa-angle-left" aria-hidden="true"></i>
+				</span>
+				<span class="brend-next-arrow">
+					<i class="fa fa-angle-right" aria-hidden="true"></i>
+				</span>
+			</div>
+
+		</div><!-- End Brand -->
+
+	</div><!-- End Container For Testemonials and Brend -->
+	
+	<!-- News -->
+	<section class="news blue-bg">
+		<div class="container">
+
+			<div class="section-caption">
+				<h2 class="section-caption-title section-caption-title--white">News forum</h2>
+				<p class="section-caption-text section-caption-text--white">Latest news & updates about gears</p>
+			</div>
+			
+			<div class="news-box clearfix">
+				
+				<div class="news-column-big">
+					
+					<div class="news-item">
+						<figure class="news-img-box">
+							<img class="news-img" src="img/news/news-img-1.jpg" alt="news img">
+							<img class="news-avatar" src="img/news/avatar.png" alt="news avatar">		
+						</figure>
+					<div class="news-content">
+							<a href="#" class="news-category">Racing Car</a>
+							<h3 class="news-title">BMW’s latest Racing Car Now Available</h3>
+							<p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudaliquip...
+								<a class="news-more" href="">Read more</a>
+							</p>
+						</div>	 
+					</div><!-- End News Item -->
+
+					<div class="news-item-box clearfix">
+
+						<div class="news-item news-item--small">
+							<figure class="news-img-box">
+								<img class="news-img" src="img/news/news-img-2.jpg" alt="news img">
+								<img class="news-avatar" src="img/news/avatar.png" alt="news avatar">		
+							</figure>
+							<div class="news-content">	
+								<a href="#" class="news-category">Awards</a>
+								<h3 class="news-title">European Car Sales Up</h3>
+								<p class="news-text">Lorem ipsum dolore rafe sit amet, co nsectetur adipising ex ea aliquip exduis aute irure dolo...
+									<a class="news-more" href="">Read more</a>
+								</p>
+
+							</div>	
+						</div><!-- End News Item -->
+
+						<div class="news-item news-item--small">
+							<figure class="news-img-box">
+								<img class="news-img" src="img/news/news-img-3.jpg" alt="news img">
+								<img class="news-avatar" src="img/news/avatar.png" alt="news avatar">		
+							</figure>
+							<div class="news-content">	
+									<a href="#" class="news-category">Awards</a>
+									<h3 class="news-title">Peugeot’s Rival</h3>
+									<p class="news-text">Lorem ipsum dolore rafe sit amet, co nsectetur adipising ex ea aliquip exduis aute irure dolo...
+										<a class="news-more" href="">Read more</a>
+									</p>
+							</div>	
+						</div><!-- End News Item -->
+					</div><!-- End Item Box -->
+				</div><!-- End News Column Big-->
+
+				<div class="news-column-small">
+
+					<div class="news-item">
+						<figure class="news-img-box">
+							<img class="news-img" src="img/news/news-img-4.jpg" alt="news img">
+							<img class="news-avatar" src="img/news/avatar.png" alt="news avatar">		
+						</figure>
+						<div class="news-content">
+							<a href="#" class="news-category">Career</a>
+							<h3 class="news-title">Be a Top Gear Host</h3>
+							<p class="news-text">Lorem ipsum dolore rafe sit amet, co nsectetur adipising ex ea aliquip...
+								<a class="news-more" href="">Read more</a>
+							</p>
+						</div>	
+					</div><!-- End News Item -->
+
+					<div class="news-item">
+						<figure class="news-img-box">
+							<img class="news-img" src="img/news/news-img-5.jpg" alt="news img">
+							<img class="news-avatar" src="img/news/avatar.png" alt="news avatar">		
+						</figure>
+						<div class="news-content">
+							<a href="#" class="news-category">Awards</a>
+							<h3 class="news-title">Formula One's Asset</h3>
+							<p class="news-text">Lorem ipsum dolore rafe sit amet, co nsectetur adipising ex ea aliquip exduis aute irure dolo aliquip ex ea commodo volupte velit..
+								<a class="news-more" href="">Read more</a>
+							</p>
+						</div>		
+					</div><!-- End News Item -->			
+				</div><!-- End News Column small-->
+
+			</div><!-- End News Box-->
+
+		</div><!-- End Container -->
+	</section><!-- End News -->
+
+	<section class="bg-map">
+		<div class="container">
+
+			<div class="rent clearfix">
+				<img class="rent-img" src="img/rent-car.png" alt="rent car">
+				<div class="rent-text-box">
+					<h2 class="section-caption-title">Rent a car from gallery</h2>
+					<p class="rent-text">You can rent cars at exclusive price range from our gallery, let us know which car you want to pick</p>
+				</div>
+				<a class="btn btn--rent" href="#" role="button">Rent a car</a>
+			</div>
+
+
+			<div class="getintouch clearfix">
+
+				<h2 class="section-caption-title section-caption-title--getintouch">Get in touch or say hello!</h2>
+
+				<ul class="getintouch-text-box">
+					<li class="getintouch-item">
+						<h3 class="getintouch-title">Our Head Branch</h3>
+						<address class="getintouch-data">
+							13, 2 Elizabeth ST, Melbourne, Victoria<br>
+							3000, Australia
+						</address>
+					</li>
+
+					<li class="getintouch-item">
+						<h3 class="getintouch-title">Call Us</h3>
+						<p class="getintouch-data">+12345678900</p>
+					</li>
+
+					<li class="getintouch-item">
+						<h3 class="getintouch-title">Email Us</h3>
+						<p class="getintouch-data">contactus@pick.com</p>
+					</li>
+				</ul><!-- End Get In Touch Data Box -->
+
+				<form class="getintouch-form">
+					<p class="getintouch-input-box" >
+						<label class="getintouch-label" for="name"></label>
+						<input class="getintouch-input" id="name" type="text" name="" placeholder="Your name">
+					</p>
+					<p class="getintouch-input-box" >
+						<label class="getintouch-label" for="email"></label>
+						<input class="getintouch-input" id="email" type="email" name="" placeholder="Email">
+					</p>
+					<p class="getintouch-input-box" >
+						<label class="getintouch-label" for="message">Message</label>
+						<textarea class="getintouch-input" id="message"></textarea>
+					</p>
+					<a class="btn btn--getintouch" href="#" role="button">Say hello</a>
+				</form>
+
+			</div><!-- End Getintouch -->
+		</div><!--End Container -->
+	</section><!-- End Bg-Map -->
+
+	<footer>
+		<div class="wrapper wrapper--footer">
+			
+			<ul class="footer-data-list clearfix">
+
+				<li class="footer-data-item footer-data-item--nav">
+					<h3 class="footer-data-item-title">Sitemap</h3>
+					<ul class="footer-nav-list">
+						<li class="footer-nav-item"><a class="footer-nav-link" href="#">Home</a></li>
+						<li class="footer-nav-item"><a class="footer-nav-link" href="#">Vehichles</a></li>
+						<li class="footer-nav-item"><a class="footer-nav-link" href="#">Why uS</a></li>
+						<li class="footer-nav-item"><a class="footer-nav-link" href="#">Terms</a></li>
+						<li class="footer-nav-item"><a class="footer-nav-link" href="#">Fetured cars</a></li>
+					</ul>
+				</li>
+
+				<li class="footer-data-item footer-data-item--nav">
+					<h3 class="footer-data-item-title">Support</h3>
+					<ul class="footer-nav-list">
+						<li class="footer-nav-item"><a class="footer-nav-link" href="#">Get Started</a></li>
+						<li class="footer-nav-item"><a class="footer-nav-link" href="#">Sign In</a></li>
+						<li class="footer-nav-item"><a class="footer-nav-link" href="#">Help</a></li>
+						<li class="footer-nav-item"><a class="footer-nav-link" href="#">List A Car</a></li>
+					</ul>
+				</li>
+
+				<li class="footer-data-item footer-data-item--address">
+					<h3 class="footer-data-item-title">Address</h3>
+					<address class="footer-address-box">
+						<span class="footer-address-item">13, 2 Elizabeth ST,</span>
+						<span class="footer-address-item">Melbourne 3000, Australia</span>
+						<span class="footer-address-item">+12345678900</span>
+						contactus@pick.com
+					</address>
+				</li>
+
+				<li class="footer-data-item footer-data-item--form">
+					<form class="footer-subscribe">
+						<label class="footer-subscribe-label" for="footer-email">Subscribe to our newsletter</label>
+						<input class="footer-subscribe-input" id="footer-email" type="email" name="" placeholder="Your email">
+						<button class="footer-subscribe-button"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+					</form>
+					<ul class="social-list clearfix">
+						<li class="social-item"><a class="social-link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="social-item"><a class="social-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="social-item"><a class="social-link" href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+						<li class="social-item"><a class="social-link" href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						<li class="social-item"><a class="social-link" href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+						<li class="social-item"><a class="social-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</li>
+			</ul><!-- End Footer Data List -->
+
+			<p class="footer-copyright">
+				<a class="footer-copyright-link" href="#">Pick</a>©All Rights Reserved
+			</p>
+
+			<img class="footer-img" src="img/footer-car.png" alt="ooter car">
+		</div><!-- End Wrapper -->
+	</footer>
+
+	<p id="back-to-top">
+		<a class="back-to-top-link" href="#"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+	</p>
+
+	<!-- Java Script -->
+	<script type="text/javascript" src="js/jquery/jquery.min.js" ></script>
+	<script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js" ></script>
+	<script type="text/javascript" src="js/slick/slick.min.js" ></script>
+	<script type="text/javascript" src="js/wowjs/wow.min.js" ></script>
+	<script type="text/javascript" src="js/common.js" ></script>
+</body>
+</html>

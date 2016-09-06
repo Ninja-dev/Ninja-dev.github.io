@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) and (min-width: 993px){
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px){
+
+.bb-about-box{ /*FIRST BOX MARGIN*/
+  margin-left: 9%;
+}
+
+.social-box{
+  margin-left: 10.5%;
+}
+
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+  .body{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px){
+  .body{
+    display: none;
+  }
+}
